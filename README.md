@@ -1,4 +1,21 @@
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+# Kulturakademin - K-Play
+This project is about making a netflix-like experience with Kulturakademin's existing network of webcasts and podcasts, which you can find [here](https://www.kulturakademin.com/k-play).
+
+## Installation Guide
+1. Clone the repository
+```
+git clone https://github.com/erhuz/kulturakademin.git
+```
+
+2. install 3rd party packages
+```
+npm install
+// or `yarn install` depending on your preference
+```
+
+3. You're ready to go!
+
+You can start the dev-server with `npm start` then visit [http://localhost:3000](http://localhost:3000) in the browser.
 
 ## Available Scripts
 
