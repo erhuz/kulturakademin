@@ -1,12 +1,12 @@
 import React from 'react';
-import SwipeComponent from '../SwipeComponent';
+import SwipeContainer from '../SwipeContainer';
 import './App.css';
 
 function App() {
   return (
     <div className="App">
         <h1>Hello World</h1>
-        <SwipeComponent/>
+        <SwipeContainer/>
     </div>
   );
 }
