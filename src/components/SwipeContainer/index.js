@@ -43,7 +43,7 @@ class SwipeContainer extends Component {
     this.lastOffsetPosition = this.state.offsetPosition;
   }
 
-  render() {
+  render(props) {
     
     
     const outerSwipeContainer = {
@@ -58,39 +58,31 @@ class SwipeContainer extends Component {
       transform: `translateX(${this.state.offsetPosition}px)`,
     }
     
-    const swipeItem = {
-      backgroundColor: 'green',
-      flex: '0 0 19.7%',
-      textAlign: 'center',
-      margin: '0 2px',
-      minWidth: '300px',
-      minHeight: '150px',
-      border: '1px solid black',
-      background: 'url(\'https://cdn.shortpixel.ai/client/to_webp,q_glossy,ret_img,w_2400/https://blog.snappa.com/wp-content/uploads/2018/01/youtube-thumbnail-size.png\')',
-      backgroundSize: 'contain',
-      backgroundRepeat: 'no-repeat',
-    }
+
+
+    let testItems = [
+      {index : 1},
+      {index : 2},
+      {index : 3},
+      {index : 4},
+      {index : 5},
+      {index : 6},
+      {index : 7},
+      {index : 8},
+    ];
     
-    let childElements = (
-      <div style={outerSwipeContainer}>
-        <div style={innerSwipeContainer}>
-          {/* <SwipeItem/> */}
-          <div style={swipeItem}>Contentbox #1</div>
-          <div style={swipeItem}>Contentbox #2</div>
-          <div style={swipeItem}>Contentbox #3</div>
-          <div style={swipeItem}>Contentbox #4</div>
-          <div style={swipeItem}>Contentbox #5</div>
-          <div style={swipeItem}>Contentbox #6</div>
-        </div>
-      </div>
-    );
+    let childElements = testItems.map(item => <SwipeItem key={item.index} index={item.index} />)
 
     return (
       <Swipe
         onSwipeStart={this.onSwipeStart}
         onSwipeMove={(position, event) => this.onSwipeMove(position, event)}
         onSwipeEnd={(event) => this.onSwipeEnd(event)}>
-          {childElements}
+        <div style={outerSwipeContainer}>
+          <div style={innerSwipeContainer}>
+            { childElements }
+          </div>
+        </div>
       </Swipe>
     );
   }
