@@ -1,8 +1,8 @@
-import React from 'react'
-import './Footer.css'
-import homeIcon from '../../assets/images/home.png'
-import gridIcon from '../../assets/images/grid.png'
-import SearchIcon from '../../assets/images/search.png'
+import React from 'react';
+import './Footer.css';
+import homeIcon from '../../assets/images/home.png';
+import gridIcon from '../../assets/images/grid.png';
+import SearchIcon from '../../assets/images/search.png';
 
 const Footer = () => (
     <footer>
@@ -14,6 +14,6 @@ const Footer = () => (
             </div>
         </div>
     </footer>
-)
+);
 
-export default Footer
+export default Footer;

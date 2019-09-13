@@ -1,7 +1,7 @@
-import React, {Component} from 'react'
-import Header from '../Header'
-import Footer from '../Footer'
-import './App.css'
+import React, {Component} from 'react';
+import Header from '../Header';
+import Footer from '../Footer';
+import './App.css';
 
 function App() {
   return (
@@ -13,4 +13,4 @@ function App() {
   )
 }
 
-export default App
+export default App;
