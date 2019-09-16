@@ -5,15 +5,15 @@ class SwipeItem extends Component {
 
   constructor(props){
     super(props);
-    
+
     this.state = {
     }
   }
 
   render() {
     const {index} = this.props;
-    
-    
+
+
     const swipeItem = {
       backgroundColor: 'green',
       flex: '0 0 19.7%',
@@ -25,6 +25,7 @@ class SwipeItem extends Component {
       background: 'url(\'https://cdn.shortpixel.ai/client/to_webp,q_glossy,ret_img,w_2400/https://blog.snappa.com/wp-content/uploads/2018/01/youtube-thumbnail-size.png\')',
       backgroundSize: 'contain',
       backgroundRepeat: 'no-repeat',
+      userSelect : 'none'
     }
 
 
@@ -33,5 +34,5 @@ class SwipeItem extends Component {
     );
   }
 }
- 
+
 export default SwipeItem;
