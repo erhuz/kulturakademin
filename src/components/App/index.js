@@ -1,4 +1,4 @@
-import React, { Component } from 'react';
+import React from 'react';
 import SwipeContainer from '../SwipeContainer';
 import Header from '../Header';
 import Footer from '../Footer';
