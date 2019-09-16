@@ -46,21 +46,31 @@ class SwipeContainer extends Component {
   render(props) {
 
 
-    const outerSwipeContainer = {
+    const OuterSwipeContainer = {
       maxWidth: '100vw',
       overflow: 'hidden',
       padding: '0',
     };
 
-    const innerSwipeContainer = {
+    const InnerSwipeContainer = {
       display: 'flex',
       // transition: 'transform 100ms linear', // Kind of broken
       transform: `translateX(${this.state.offsetPosition}px)`,
     }
 
+    const ContainerTitle = {
+      color: '#ffffff',
+    }
 
+    const TitleContainer = {
+      borderBottom: '1px solid #fff',
+      margin: '10.87px',
+      padding: '10.87px 0',
+    }
 
-    let testItems = [
+    const testTitle = "Recommended";
+
+    const testItems = [
       {
         index : 1,
         backgroundUrl : 'https://cdn.shortpixel.ai/client/to_webp,q_glossy,ret_img,w_2400/https://blog.snappa.com/wp-content/uploads/2018/01/youtube-thumbnail-size.png',
@@ -99,15 +109,17 @@ class SwipeContainer extends Component {
 
     return (
       <div>
-
+        <div style={TitleContainer}>
+          <h4 style={ContainerTitle}>{testTitle}</h4>
+        </div>
 
         <Swipe
           allowMouseEvents={true}
           onSwipeStart={this.onSwipeStart}
           onSwipeMove={(position, event) => this.onSwipeMove(position, event)}
           onSwipeEnd={(event) => this.onSwipeEnd(event)}>
-          <div style={outerSwipeContainer}>
-            <div style={innerSwipeContainer}>
+          <div style={OuterSwipeContainer}>
+            <div style={InnerSwipeContainer}>
               { childElements }
             </div>
           </div>
