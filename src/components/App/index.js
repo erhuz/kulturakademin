@@ -10,8 +10,12 @@ function App() {
 
   const categoriesComponents = categoriesData.map(item => <CategoriesButton key={item.id} name={item.name} category={item.category} color={item.color}/>)
 
+  const AppStyle = {
+    backgroundColor: '#242424'
+  }
+
   return (
-    <div className="App">
+    <div style={AppStyle} className="App">
         <Header />
         {categoriesComponents}
         <SwipeContainer/>
