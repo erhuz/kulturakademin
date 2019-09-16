@@ -7,36 +7,36 @@ class SwipeContainer extends Component {
 
   constructor(props){
     super(props);
-    
+
     this.state = {
       offsetPosition: 0,
     }
   }
 
   lastOffsetPosition = 0;
-  
+
   setOffset(offset){
 
     let currentOffset = (offset.x + this.lastOffsetPosition);
 
     // console.log('Current: ' + currentOffset);
-    
+
     this.setState( {
       offsetPosition: currentOffset
     });
     // console.log(this.state.offsetPosition);
   }
-  
-  
+
+
   onSwipeStart(event) {
     // Run this on swipe-start
   }
-  
+
   onSwipeMove(pos, event){
     // Run this on each swipe movement
     this.setOffset(pos);
   }
-  
+
 
   onSwipeEnd(event) {
     // Run this on swipe-end
@@ -44,8 +44,8 @@ class SwipeContainer extends Component {
   }
 
   render(props) {
-    
-    
+
+
     const outerSwipeContainer = {
       maxWidth: '100vw',
       overflow: 'hidden',
@@ -54,10 +54,10 @@ class SwipeContainer extends Component {
 
     const innerSwipeContainer = {
       display: 'flex',
-      transition: 'transform 100ms linear',
+      // transition: 'transform 150ms linear', // Kind of broken
       transform: `translateX(${this.state.offsetPosition}px)`,
     }
-    
+
 
 
     let testItems = [
@@ -70,11 +70,12 @@ class SwipeContainer extends Component {
       {index : 7},
       {index : 8},
     ];
-    
+
     let childElements = testItems.map(item => <SwipeItem key={item.index} index={item.index} />)
 
     return (
       <Swipe
+        allowMouseEvents={true}
         onSwipeStart={this.onSwipeStart}
         onSwipeMove={(position, event) => this.onSwipeMove(position, event)}
         onSwipeEnd={(event) => this.onSwipeEnd(event)}>
@@ -87,5 +88,5 @@ class SwipeContainer extends Component {
     );
   }
 }
- 
+
 export default SwipeContainer;
