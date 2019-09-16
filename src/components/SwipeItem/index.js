@@ -16,17 +16,17 @@ class SwipeItem extends Component {
 
     const swipeItem = {
       backgroundColor: 'green',
+      borderRadius: '8px',
       flex: '0 0 19.7%',
       textAlign: 'center',
-      margin: '0 2px',
-      width: '200px',
-      minWidth: '200px',
-      maxWidth: '200px',
-      height: '200px',
-      minHeight: '200px',
-      maxHeight: '200px',
-      border: '1px solid black',
-      background: 'url(' + backgroundUrl + ')',
+      margin: '0 10.87px',
+      width: '121px',
+      minWidth: '121px',
+      maxWidth: '121px',
+      height: '121px',
+      minHeight: '121px',
+      maxHeight: '121px',
+      background: 'linear-gradient(225deg, rgba(0,0,0,0) 25%, rgba(255,255,255,0.35) 100%), url(' + backgroundUrl + ')',
       backgroundSize: 'cover',
       backgroundRepeat: 'no-repeat',
       backgroundPosition: 'center center',
@@ -35,7 +35,7 @@ class SwipeItem extends Component {
 
 
     return (
-        <div style={swipeItem}>Contentbox #{index}</div>
+        <div style={swipeItem}></div>
     );
   }
 }
