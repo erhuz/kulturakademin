@@ -9,12 +9,15 @@ function App() {
 
 
 
+  const AppStyle = {
+    backgroundColor: '#242424'
+  }
+
   return (
-    <div className="App">
+    <div style={AppStyle} className="App">
         <Header />
         <CategoriesComponent />
         <SwipeContainer/>
-        <h1 > Hello World </h1>
         <Footer />
     </div>
   )
