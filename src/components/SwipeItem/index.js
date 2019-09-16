@@ -11,7 +11,7 @@ class SwipeItem extends Component {
   }
 
   render() {
-    const {index} = this.props;
+    const {index, backgroundUrl} = this.props;
 
 
     const swipeItem = {
@@ -19,12 +19,17 @@ class SwipeItem extends Component {
       flex: '0 0 19.7%',
       textAlign: 'center',
       margin: '0 2px',
-      minWidth: '300px',
-      minHeight: '150px',
+      width: '200px',
+      minWidth: '200px',
+      maxWidth: '200px',
+      height: '200px',
+      minHeight: '200px',
+      maxHeight: '200px',
       border: '1px solid black',
-      background: 'url(\'https://cdn.shortpixel.ai/client/to_webp,q_glossy,ret_img,w_2400/https://blog.snappa.com/wp-content/uploads/2018/01/youtube-thumbnail-size.png\')',
-      backgroundSize: 'contain',
+      background: 'url(' + backgroundUrl + ')',
+      backgroundSize: 'cover',
       backgroundRepeat: 'no-repeat',
+      backgroundPosition: 'center center',
       userSelect : 'none'
     }
 

@@ -61,17 +61,41 @@ class SwipeContainer extends Component {
 
 
     let testItems = [
-      {index : 1},
-      {index : 2},
-      {index : 3},
-      {index : 4},
-      {index : 5},
-      {index : 6},
-      {index : 7},
-      {index : 8},
+      {
+        index : 1,
+        backgroundUrl : 'https://cdn.shortpixel.ai/client/to_webp,q_glossy,ret_img,w_2400/https://blog.snappa.com/wp-content/uploads/2018/01/youtube-thumbnail-size.png',
+      },
+      {
+        index : 2,
+        backgroundUrl : 'https://cdn.shortpixel.ai/client/to_webp,q_glossy,ret_img,w_2400/https://blog.snappa.com/wp-content/uploads/2018/01/youtube-thumbnail-size.png',
+      },
+      {
+        index : 3,
+        backgroundUrl : 'https://cdn.shortpixel.ai/client/to_webp,q_glossy,ret_img,w_2400/https://blog.snappa.com/wp-content/uploads/2018/01/youtube-thumbnail-size.png',
+      },
+      {
+        index : 4,
+        backgroundUrl : 'https://cdn.shortpixel.ai/client/to_webp,q_glossy,ret_img,w_2400/https://blog.snappa.com/wp-content/uploads/2018/01/youtube-thumbnail-size.png',
+      },
+      {
+        index : 5,
+        backgroundUrl : 'https://cdn.shortpixel.ai/client/to_webp,q_glossy,ret_img,w_2400/https://blog.snappa.com/wp-content/uploads/2018/01/youtube-thumbnail-size.png',
+      },
+      {
+        index : 6,
+        backgroundUrl : 'https://cdn.shortpixel.ai/client/to_webp,q_glossy,ret_img,w_2400/https://blog.snappa.com/wp-content/uploads/2018/01/youtube-thumbnail-size.png',
+      },
+      {
+        index : 7,
+        backgroundUrl : 'https://cdn.shortpixel.ai/client/to_webp,q_glossy,ret_img,w_2400/https://blog.snappa.com/wp-content/uploads/2018/01/youtube-thumbnail-size.png',
+      },
+      {
+        index : 8,
+        backgroundUrl : 'https://cdn.shortpixel.ai/client/to_webp,q_glossy,ret_img,w_2400/https://blog.snappa.com/wp-content/uploads/2018/01/youtube-thumbnail-size.png',
+      },
     ];
 
-    let childElements = testItems.map(item => <SwipeItem key={item.index} index={item.index} />)
+    let childElements = testItems.map(item => <SwipeItem key={item.index} index={item.index} backgroundUrl={item.backgroundUrl}/>)
 
     return (
       <Swipe
