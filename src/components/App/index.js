@@ -7,10 +7,10 @@ import './App.css';
 function App() {
   return (
     <div className="App">
-        <Header />
-        <SwipeContainer/>
-        <h1 > Hello World </h1>
-        <Footer />
+      <Header />
+      <SwipeContainer/>
+      <h1 > Hello World </h1>
+      <Footer />
     </div>
   )
 }
