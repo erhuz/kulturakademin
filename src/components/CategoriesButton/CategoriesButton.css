@@ -1,0 +1,19 @@
+.catBtn {
+    width: 343px;
+    height: 120px;
+    
+    display: flex;
+    justify-content: flex-start;
+    border-radius: 8px;
+    border: 0px;
+    padding-left: 10px;
+    padding-bottom: 70px;
+    margin: 15px;
+    font-size: 32px;
+    color: white;
+
+    -webkit-box-shadow: 0 8px 6px -6px black;
+	   -moz-box-shadow: 0 8px 6px -6px black;
+	        box-shadow: 0 8px 6px -6px black;
+}
+
