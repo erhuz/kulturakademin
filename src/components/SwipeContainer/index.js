@@ -79,36 +79,40 @@ class SwipeContainer extends Component {
       },
       {
         index : 5,
-        backgroundUrl : 'https://cdn.shortpixel.ai/client/to_webp,q_glossy,ret_img,w_2400/https://blog.snappa.com/wp-content/uploads/2018/01/youtube-thumbnail-size.png',
+        backgroundUrl : 'https://images.unsplash.com/photo-1568622155247-675b7a01d1e4?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=634&q=80',
       },
       {
         index : 6,
-        backgroundUrl : 'https://cdn.shortpixel.ai/client/to_webp,q_glossy,ret_img,w_2400/https://blog.snappa.com/wp-content/uploads/2018/01/youtube-thumbnail-size.png',
+        backgroundUrl : 'https://images.unsplash.com/photo-1568502748968-996f6a82e508?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=670&q=80',
       },
       {
         index : 7,
-        backgroundUrl : 'https://cdn.shortpixel.ai/client/to_webp,q_glossy,ret_img,w_2400/https://blog.snappa.com/wp-content/uploads/2018/01/youtube-thumbnail-size.png',
+        backgroundUrl : 'https://images.unsplash.com/photo-1568478555168-38688f1f58fd?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=701&q=80',
       },
       {
         index : 8,
-        backgroundUrl : 'https://cdn.shortpixel.ai/client/to_webp,q_glossy,ret_img,w_2400/https://blog.snappa.com/wp-content/uploads/2018/01/youtube-thumbnail-size.png',
+        backgroundUrl : 'https://images.unsplash.com/photo-1568621779193-e6e6c9ab80f0?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=634&q=80',
       },
     ];
 
-    let childElements = testItems.map(item => <SwipeItem key={item.index} index={item.index} backgroundUrl={item.backgroundUrl}/>)
+    const childElements = testItems.map(item => <SwipeItem key={item.index} index={item.index} backgroundUrl={item.backgroundUrl}/>)
 
     return (
-      <Swipe
-        allowMouseEvents={true}
-        onSwipeStart={this.onSwipeStart}
-        onSwipeMove={(position, event) => this.onSwipeMove(position, event)}
-        onSwipeEnd={(event) => this.onSwipeEnd(event)}>
-        <div style={outerSwipeContainer}>
-          <div style={innerSwipeContainer}>
-            { childElements }
+      <div>
+
+
+        <Swipe
+          allowMouseEvents={true}
+          onSwipeStart={this.onSwipeStart}
+          onSwipeMove={(position, event) => this.onSwipeMove(position, event)}
+          onSwipeEnd={(event) => this.onSwipeEnd(event)}>
+          <div style={outerSwipeContainer}>
+            <div style={innerSwipeContainer}>
+              { childElements }
+            </div>
           </div>
-        </div>
-      </Swipe>
+        </Swipe>
+      </div>
     );
   }
 }
