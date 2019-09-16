@@ -67,6 +67,7 @@ class SwipeContainer extends Component {
       borderBottom: '1px solid #fff',
       margin: '10.87px',
       padding: '10.87px 0',
+      fontSize: '24px',
     }
 
     const testTitle = "Recommended";
