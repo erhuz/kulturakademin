@@ -2,37 +2,37 @@ const categoriesData = [
     {
         id: 1,
         name: "Dans",
-        category: "",
+        route: "",
         color: "250, 108, 103"
     },
     {
         id: 2,
         name: "Teater",
-        category: "",
+        route: "",
         color: "205, 93, 141"
     },
     {
         id: 3,
         name: "Konst",
-        category: "",
+        route: "",
         color: "138, 94, 151"
     },
     {
         id: 4,
         name: "Kategori",
-        category: "",
+        route: "",
         color: "75, 88, 129"
     },
     {
         id: 5,
         name: "Kategori",
-        category: "",
+        route: "",
         color: "47, 72, 88"
     },
     {
         id: 6,
         name: "Kategori",
-        category: "",
+        route: "",
         color: "0, 115, 95"
     },
 ]
