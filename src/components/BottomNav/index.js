@@ -1,12 +1,12 @@
 import React from 'react';
 // OBS! Dont remove un-used statements on the line below. It breaks the Links
 import { BrowserRouter as Router, Route, Link } from "react-router-dom";
-import './Footer.css';
+import './BottomNav.css';
 import homeIcon from '../../assets/images/home.png';
 import gridIcon from '../../assets/images/grid.png';
 import SearchIcon from '../../assets/images/search.png';
 
-const Footer = () => (
+const BottomNav = () => (
   <footer>
     <div className="bottom-nav">
       <nav className="navbar">
@@ -18,4 +18,4 @@ const Footer = () => (
   </footer>
 );
 
-export default Footer;
+export default BottomNav;
