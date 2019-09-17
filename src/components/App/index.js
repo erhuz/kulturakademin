@@ -5,6 +5,7 @@ import Footer from '../Footer';
 import CategoriesButton from '../CategoriesButton'
 import categoriesData from '../CategoriesButton/categoriesData'
 import './App.css';
+import FeedComponent from '../FeedComponent';
 
 function App() {
 
@@ -13,6 +14,7 @@ function App() {
   return (
     <div className="App">
         <Header />
+        <FeedComponent />
         {categoriesComponents}
         <SwipeContainer/>
         <h1 > Hello World </h1>
