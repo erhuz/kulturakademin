@@ -6,12 +6,12 @@ import logo from '../../assets/images/logo.png';
 import menuIcon from '../../assets/images/menu.png';
 
 const Header = () => (
-    <header>
-      <nav className="navbar">
-        <Link to="/"><img className="logo" src={logo} alt="logo"/></Link>
-        <Link to="/menu"><img className="menu" src={menuIcon} alt="menu"/></Link>
-      </nav>
-    </header>
+  <header>
+    <nav className="navbar">
+      <Link to="/"><img className="logo" src={logo} alt="logo"/></Link>
+      <Link to="/menu"><img className="menu" src={menuIcon} alt="menu"/></Link>
+    </nav>
+  </header>
 );
 
 export default Header;
