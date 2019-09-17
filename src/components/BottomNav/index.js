@@ -11,8 +11,8 @@ const BottomNav = () => (
     <div className="bottom-nav">
       <nav className="navbar">
         <Link to="/"><img className="logo" src={homeIcon} alt="logo"/></Link>
-        <Link to="/categories"><img className="menu" src={gridIcon} alt="menu"/></Link>
-        <Link to="/search"><img className="menu" src={SearchIcon} alt="menu"/></Link>
+        <Link to="/categories"><img className="categories" src={gridIcon} alt="menu"/></Link>
+        <Link to="/search"><img className="search" src={SearchIcon} alt="menu"/></Link>
       </nav>
     </div>
   </footer>
