@@ -1,19 +1,14 @@
-@media only screen 
-  and (min-device-width: 375px) 
-  and (max-device-width: 812px) 
-  and (-webkit-min-device-pixel-ratio: 3) { 
-    .navbar{
-      display: flex;
-      justify-content: space-between;
-      align-items: center;
-      height: 65px;
-      background-color: #242424;
-      padding-right: 16px;
-      padding-left: 16px;
-    }
-
-    .menu{
-      margin-top: 11px;
-    }
-
+.navbar{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 65px;
+  background-color: #242424;
+  padding-right: 16px;
+  padding-left: 16px;
 }
+
+.menu-button{
+  margin-top: 11px;
+}
+
