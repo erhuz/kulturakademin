@@ -10,8 +10,7 @@ class FeedCard extends Component {
             {/* <div className="type">{this.props.type}</div> */}
           </button>
           <div className="feedText">
-              {/* <h3>{this.props.header}</h3> */}
-              <h3>Lorem ipsum</h3>
+              <h3>{this.props.header}</h3>
               <ShowMoreText className="showMore"
                   lines={4}
                   more="Visa mer"
@@ -20,8 +19,7 @@ class FeedCard extends Component {
                   onClick={this.executeOnClick}
                   expanded={false}
               >
-                  {/* <p>{this.props.description}</p> */}
-                <p>Nullam cursus lacinia erat. Vestibulum fringilla pede sit amet augue. Pellentesque libero tortor, tincidunt et, tincidunt eget, semper nec, quam.</p>
+                  <p>{this.props.description}</p>
             </ShowMoreText>
           </div>
       </div>
