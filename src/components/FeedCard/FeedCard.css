@@ -1,0 +1,40 @@
+.feedCard {
+  display: flex;
+  flex-direction: row;
+  margin: 15px;
+}
+
+.cardBtn {
+  width: 121px;
+  height: 121px;
+  margin-right: 10px;
+  background-color: grey;
+  border-radius: 8px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  align-items: flex-end;
+  padding: 5px;
+}
+
+.type {
+  width: 24px;
+  height: 24px;;
+}
+
+.feedText {
+  width: 212px;
+  height: 121;
+  text-overflow: ellipsis;
+  overflow-wrap: break-word;
+  overflow: hidden;
+  color: white;
+}
+
+h3 {
+  font-size: 16px;
+}
+
+.feedText p {
+  font-size: 14px;
+}
