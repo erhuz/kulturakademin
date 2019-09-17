@@ -1,12 +1,12 @@
 import React from 'react';
-import { Layout } from "../../layouts/Default";
+import DefaultLayout from "../../layouts/Default";
 import './Test.css';
 
 const Test = () => (
-  <Layout>
+  <DefaultLayout>
     <h1>Welcome to the Test Page!</h1>
     {/* Put Test content here*/}
-  </Layout>
+  </DefaultLayout>
 );
 
 export default Test;

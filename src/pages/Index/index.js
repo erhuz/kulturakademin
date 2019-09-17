@@ -1,12 +1,12 @@
 import React from 'react';
-import { Layout } from "../../layouts/Default";
-import './Home.css';
+import DefaultLayout from '../../layouts/Default';
+import './Index.css';
 
 const Index = () => (
-  <Layout>
+  <DefaultLayout>
     <h1>Welcome to the Home Page!</h1>
     {/* Put Index content here*/}
-  </Layout>
+  </DefaultLayout>
 );
 
 export default Index;
