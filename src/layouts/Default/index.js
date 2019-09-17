@@ -1,6 +1,6 @@
 import React from 'react';
 import Header from '../../components/Header';
-import Footer from '../../components/Footer';
+import BottomNav from '../../components/BottomNav';
 import './DefaultLayout.css';
 
 function DefaultLayout(props) {
@@ -9,7 +9,7 @@ function DefaultLayout(props) {
     <div className="App">
         <Header />
           {props.children}
-        <Footer />
+        <BottomNav / >
     </div>
   )
 }
