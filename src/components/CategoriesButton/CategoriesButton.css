@@ -1,13 +1,15 @@
 .catBtn {
-    width: 343px;
+    width: calc(100vw - 30px);
     height: 120px;
-    
+
     display: flex;
+    flex-direction: column;
     justify-content: flex-start;
+    align-items: flex-start;
     border-radius: 8px;
     border: 0px;
     padding-left: 10px;
-    padding-bottom: 70px;
+    padding-top: 10px;
     margin: 15px;
     font-size: 32px;
     color: white;
