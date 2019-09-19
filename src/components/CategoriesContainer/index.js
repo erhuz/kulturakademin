@@ -3,7 +3,7 @@ import CategoriesButton from '../CategoriesButton'
 import categoriesData from './categoriesData'
 
 
-class CategoriesComponent extends Component {
+class CategoriesContainer extends Component {
   render() {
 
     const categoriesComponents = categoriesData.map(item => <CategoriesButton key={item.id} name={item.name} category={item.category} color={item.color}/>)
@@ -16,4 +16,4 @@ class CategoriesComponent extends Component {
   }
 }
 
-export default CategoriesComponent
+export default CategoriesContainer
