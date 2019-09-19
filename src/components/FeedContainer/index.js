@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import FeedCard from '../FeedCard';
-import feedData from './feedData'
+import feedData from '../../data/feedData'
 
 class FeedContainer extends Component {
   render() {
