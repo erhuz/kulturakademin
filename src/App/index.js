@@ -4,6 +4,7 @@ import Index from '../pages/Index';
 import Search from '../pages/Search';
 import Test from '../pages/Test';
 import Header from '../components/Header';
+import Categories from "../pages/Categories";
 
 function AppRouter() {
   return (
@@ -14,7 +15,7 @@ function AppRouter() {
         {/* Declare routes here! */}
         <Route path="/" exact component={Index} />
         <Route path="/search/" component={Search} />
-        <Route path="/categories/" component={Test} />
+        <Route path="/categories/" component={Categories} />
         <Route path="/menu/" component={Test} />
         <Route path="/test/" component={Test} />
       </div>
