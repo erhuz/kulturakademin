@@ -1,12 +1,14 @@
 import React, { Component } from 'react'
 import ShowMoreText from 'react-show-more-text'
 import './FeedCard.css'
+import Playknapp from '../../assets/images/Playknapp.png'
 
 class FeedCard extends Component {
   render() {
     return (
       <div className="feedCard">
           <button className="cardBtn">
+            <img className="play" src={Playknapp}/>
             {/* <div className="type">{this.props.type}</div> */}
           </button>
           <div className="feedText">

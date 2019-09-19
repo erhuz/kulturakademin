@@ -13,8 +13,8 @@
   border-radius: 8px;
   display: flex;
   flex-direction: column;
-  justify-content: flex-end;
-  align-items: flex-end;
+  justify-content: center;
+  align-items: center;
   padding: 5px;
 }
 
