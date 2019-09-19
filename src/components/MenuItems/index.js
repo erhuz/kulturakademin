@@ -1,6 +1,6 @@
 import React from 'react';
 import { BrowserRouter as Router, Route, Link } from "react-router-dom";
-import navlinks from './navlinks';
+import navlinks from '../../data/navlinks';
 import './MenuItems.css';
 class MenuItems extends React.Component{
 
