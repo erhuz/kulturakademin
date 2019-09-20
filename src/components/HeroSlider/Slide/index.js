@@ -15,16 +15,16 @@ const Slide = (props)  => {
 
   const TextContainer = {
     padding: 16,
-    width: '50%',
+    width: '70%',
   }
 
   const SlideTitle = {
-    fontSize: 36,
+    fontSize: 32,
     fontWeight: 'normal',
   }
 
   const SlideDesc = {
-    fontSize: 20
+    fontSize: 14
   }
 
   return (
