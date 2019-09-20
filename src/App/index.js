@@ -4,7 +4,6 @@ import { BrowserRouter as Router, Route } from "react-router-dom";
 import Index from '../pages/Index';
 import Search from '../pages/Search';
 import Test from '../pages/Test';
-import Header from '../components/Header';
 import Categories from "../pages/Categories";
 
 function AppRouter() {
@@ -12,7 +11,6 @@ function AppRouter() {
     <Router>
       <div className="main"> </div>
       <div>
-        {Header}
 
         {/* Declare routes here! */}
         <Route path="/" exact component={Index} />

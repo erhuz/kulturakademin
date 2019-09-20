@@ -1,21 +1,22 @@
-.catBtn {
+.categories-button {
     width: calc(100vw - 30px);
-    height: 120px;
-
-    display: flex;
-    flex-direction: column;
-    justify-content: flex-start;
-    align-items: flex-start;
-    border-radius: 8px;
-    border: 0px;
-    padding-left: 10px;
-    padding-top: 10px;
+    height: 70px;
     margin: 15px;
+    display: flex;
+    justify-content: space-between;
+    border: none;
     font-size: 32px;
+    border-bottom: white solid 1px;
     color: white;
-
-    -webkit-box-shadow: 0 8px 6px -6px black;
-	   -moz-box-shadow: 0 8px 6px -6px black;
-	        box-shadow: 0 8px 6px -6px black;
+    background-color: #242424;
 }
+
+span {
+  transform: translateY(15px);
+}
+
+img {
+  transform: translateY(25px);
+}
+
 
