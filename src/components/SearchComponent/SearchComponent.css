@@ -1,0 +1,28 @@
+.search-bar {
+  display: flex;
+  width: 100%;
+  align-items: center;
+  justify-content: center;
+}
+
+.search-input {
+  background: #F5F5F5;
+  border-radius: 8px;
+  width: 263px;
+  height: 30px;
+}
+
+::placeholder {
+  font-size: 16px;
+  line-height: 19px;
+  letter-spacing: -0.04em;
+  padding-left: 6px;
+}
+
+.search-cancel {
+  font-size: 16px;
+  line-height: 19px;
+  color: #F5F5F5;
+  margin-left: 16px;
+  text-transform: uppercase;
+}
