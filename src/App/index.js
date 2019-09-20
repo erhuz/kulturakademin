@@ -1,4 +1,5 @@
 import React from "react";
+import './App.css'
 import { BrowserRouter as Router, Route } from "react-router-dom";
 import Index from '../pages/Index';
 import Search from '../pages/Search';
@@ -9,6 +10,7 @@ import Categories from "../pages/Categories";
 function AppRouter() {
   return (
     <Router>
+      <div className="main"> </div>
       <div>
         {Header}
 
