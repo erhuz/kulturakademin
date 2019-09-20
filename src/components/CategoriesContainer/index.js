@@ -1,6 +1,6 @@
 import React, {Component} from 'react'
 import CategoriesButton from '../CategoriesButton'
-import categoriesData from './categoriesData'
+import categoriesData from '../../data/categoriesData'
 
 
 class CategoriesContainer extends Component {

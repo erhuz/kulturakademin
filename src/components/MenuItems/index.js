@@ -1,8 +1,9 @@
 import React from 'react';
 import { BrowserRouter as Router, Route, Link } from "react-router-dom";
+import navlinks from '../../data/navlinks';
 import './MenuItems.css';
-
 class MenuItems extends React.Component{
+
   state ={
     on: true,
   };
@@ -18,18 +19,19 @@ class MenuItems extends React.Component{
       this.state.on &&(
         <div className="menu">
           <div className="close-button">
-            <button onClick={this.closeMenu}> &times; </button>
+            <button onClick={this.closeMenu}>X</button>
           </div>
           <div className="menu-tittle">
-            <h1 >Inställningar</h1>
+            <h1>Inställningar</h1>
+            <hr className="line"></hr>
           </div>
           <div className="menu-items">
-            <Link to="/">menuitem</Link>
-            <Link to="/">menuitem</Link>
-            <Link to="/">menuitem</Link>
-            <Link to="/">menuitem</Link>
-            <Link to="/">menuitem</Link>
-            <Link to="/">menuitem</Link>
+
+            {navlinks.map(link =>
+              <Link to={link.path}>{link.text}</Link>
+            )}
+
+            <hr className="line"></hr>
           </div>
         </div>
       )

@@ -16,6 +16,7 @@ function AppRouter() {
         <Route path="/categories/" component={Categories} />
         <Route path="/menu/" component={Test} />
         <Route path="/test/" component={Test} />
+
       </div>
     </Router>
   );
