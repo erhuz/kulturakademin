@@ -11,11 +11,11 @@
     background-color: #242424;
 }
 
-span {
+.categories-text {
   transform: translateY(15px);
 }
 
-img {
+.categories-arrow {
   transform: translateY(25px);
 }
 
