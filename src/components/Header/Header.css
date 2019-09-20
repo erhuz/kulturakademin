@@ -10,10 +10,12 @@
   top: 0;
   transition: top 0.6s;
   width: 100%;
+  overflow-x: hidden;
+  z-index: 1;
 }
 
 .navbar--hidden {
-  top: -50px;
+  top: -65px;
 }
 
 .menu-button {
