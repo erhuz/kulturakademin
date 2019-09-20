@@ -37,6 +37,7 @@ const Index = () => (
     <SwipeContainer/>
     <SwipeContainer/>
     <SwipeContainer/>
+    <SwipeContainer/>
   </DefaultLayout>
 );
 
