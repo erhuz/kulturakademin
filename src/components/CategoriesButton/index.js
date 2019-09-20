@@ -6,8 +6,8 @@ class CategoriesButton extends Component {
     render() {
         return(
             <button className="categories-button">
-                <span>{this.props.name}</span>
-                <img src={arrow}/>
+                <span className="categories-text">{this.props.name}</span>
+                <img className="categories-arrow" src={arrow}/>
             </button>
         )
     }
