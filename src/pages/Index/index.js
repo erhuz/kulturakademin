@@ -1,6 +1,7 @@
 import React from 'react';
 import DefaultLayout from '../../layouts/Default';
 import HeroSlider from '../../components/HeroSlider';
+import SwipeContainer from '../../components/SwipeContainer';
 import './Index.css';
 
 const testJson = [
@@ -30,6 +31,12 @@ const Index = () => (
   <DefaultLayout>
     {/* Put Index content here*/}
     <HeroSlider slides={testJson}/>
+    <SwipeContainer/>
+    <SwipeContainer/>
+    <SwipeContainer/>
+    <SwipeContainer/>
+    <SwipeContainer/>
+    <SwipeContainer/>
   </DefaultLayout>
 );
 
