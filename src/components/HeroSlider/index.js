@@ -14,7 +14,7 @@ class HeroSlider extends Component {
     let interval = setInterval(() => {
       this.setNextSlide(this.state.currentSlide, this.props.slides.length)
     }
-    , 1000);
+    , 10000);
 
   }
 
