@@ -1,11 +1,13 @@
 import React from 'react';
 import DefaultLayout from "../../layouts/Default";
 import './Search.css';
+import SearchComponent from '../../components/SearchComponent'
 
 const Search = () => (
   <DefaultLayout>
-    <h1>Welcome to the Search Page!</h1>
-    {/* Put Search content here*/}
+
+    <SearchComponent />
+
   </DefaultLayout>
 );
 

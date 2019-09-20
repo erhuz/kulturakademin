@@ -2,13 +2,14 @@ import React from 'react';
 import { BrowserRouter as Router, Route, Link } from "react-router-dom";
 import navlinks from '../../data/navlinks';
 import './MenuItems.css';
+
 class MenuItems extends React.Component{
 
   state ={
     on: true,
   };
 
-  closeMenu = () =>{
+  closeMenu = () => {
     this.setState({
       on: !this.state.on
     });
