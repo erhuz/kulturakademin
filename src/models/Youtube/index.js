@@ -1,6 +1,6 @@
 import { YoutubeDataAPI } from 'youtube-v3-api';
+import API_KEY from './api-key'; // Rename 'api-key.js.example' to 'api-key.js'
 
-const API_KEY = '<ENTER YOUR API KEY HERE>';
 const api = new YoutubeDataAPI(API_KEY);
 
 const query = '';
