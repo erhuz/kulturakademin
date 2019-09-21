@@ -13,7 +13,8 @@
     "react-show-more-text": "^1.2.3",
     "react-youtube": "^7.9.0",
     "soundcloud-api-client": "0.0.9",
-    "styled-components": "^4.3.2"
+    "styled-components": "^4.3.2",
+    "youtube-v3-api": "^1.1.1"
   },
   "scripts": {
     "start": "react-scripts start",
