@@ -8,12 +8,14 @@
   padding-left: 16px;
   position: fixed;
   top: 0;
-  transition: top 0.6s;
+  transition: top 0.2s;
   width: 100%;
+  overflow-x: hidden;
+  z-index: 1;
 }
 
 .navbar--hidden {
-  top: -50px;
+  top: -65px;
 }
 
 .menu-button {
