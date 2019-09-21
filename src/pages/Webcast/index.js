@@ -42,9 +42,21 @@ const Webcast = ({match}) => {
     },
   ];
 
+
+
+  const playerOptions = {
+    // height: window.innerHeight,
+    width: window.innerWidth,
+    playerVars: { // https://developers.google.com/youtube/player_parameters
+      modestbranding: 1
+    }
+  }
+
   return (
     <DefaultLayout>
-    <YouTube videoId={match.params.id} />
+    <YouTube
+      videoId={match.params.id}
+      opts={playerOptions} />
 
       {/* Video info */}
 
