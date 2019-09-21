@@ -12,16 +12,19 @@
   height: 30px;
 }
 
+.search-input[type=text] {
+  padding-left: 8px;
+  font-size: 16px;
+}
+
 ::placeholder {
   font-size: 16px;
-  line-height: 19px;
   letter-spacing: -0.04em;
   padding-left: 6px;
 }
 
 .search-cancel {
   font-size: 16px;
-  line-height: 19px;
   color: #F5F5F5;
   margin-left: 16px;
   text-transform: uppercase;
