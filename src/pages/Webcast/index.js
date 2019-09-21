@@ -1,6 +1,7 @@
 import React from 'react';
 import { BrowserRouter as Router, Route, Link } from "react-router-dom";
 import DefaultLayout from '../../layouts/Default';
+import YouTube from 'react-youtube';
 import SwipeContainer from '../../components/SwipeContainer';
 import './Webcast.css'
 
@@ -43,12 +44,7 @@ const Webcast = ({match}) => {
 
   return (
     <DefaultLayout>
-    <Route path={`${match.path}/:id`} component={{/* Video player */}}/>
-    <Route
-      exact
-      path={match.path}
-      render={() => <h3>No video-id supplied</h3>}/>
-
+    <YouTube videoId={match.params.id} />
 
       {/* Video info */}
 
