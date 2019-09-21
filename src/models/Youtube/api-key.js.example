@@ -1,0 +1,3 @@
+const apiKey = 'ENTER YOUR API KEY';
+
+export default apiKey;
