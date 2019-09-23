@@ -5,12 +5,14 @@
   height: 100vh;
   width: 100vw;
   position: fixed;
-  /* z-index: 1; */
-  /* overflow-x: hidden; */
   top: 0;
   left: 0;
   background-color: #242424;
-  color: #FFFFFF;
+  color: #ffffff;
+  font-weight: lighter;
+  font-size: 24px;
+  line-height: 150%;
+  letter-spacing: -0.04em;
 }
 
 .line {
@@ -31,12 +33,24 @@
   margin: 16px;
   display: block;
   font-size: 24px;
-  color: #FFFFFF;
+  color: #ffffff;
 }
 
 .close-button button {
   font-size: 60px;
-  color: #fff;
+}
+
+.social-media {
+  margin: 16px;
+}
+
+.social-media p {
+  margin-bottom: 16px;
+  font-size: 24px;
+}
+
+.social-media a {
+  margin-right: 23px;
 }
 
 
