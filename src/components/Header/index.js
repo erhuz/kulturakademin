@@ -1,11 +1,11 @@
 import React from 'react';
 import './Header.css';
-import { BrowserRouter as Router, Route, Link } from "react-router-dom";
 import classnames from "classnames";
-import logo from '../../assets/images/logo.png';
-import menuIcon from '../../assets/images/menu.png';
 import MenuItems from '../MenuItems';
-import BackButton from "../BackButton";
+import BackButton from '../BackButton';
+import { BrowserRouter as Router, Route, Link } from "react-router-dom";
+import logo from '../../assets/images/logo.svg';
+import menuIcon from '../../assets/images/Cog.svg';
 
 class Header extends React.Component {
 
