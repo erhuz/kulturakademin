@@ -82,7 +82,6 @@ class Header extends React.Component {
         {navbar}
       </div>
     );
-
   }
 }
 
