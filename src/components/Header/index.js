@@ -8,13 +8,21 @@ import menuIcon from '../../assets/images/Cog.svg';
 
 class Header extends React.Component {
 
-  constructor(props) {
-    super(props);
+  constructor() {
+    super();
 
     this.state = {
       prevScrollpos: window.pageYOffset,
-      visible: true
+      visible: true,
+      showBackButton: false,
+      menuIsOn: false
     };
+  };
+
+  openMenu = () => {
+    this.setState({
+      menuIsOn: !this.state.menuIsOn
+    });
   };
 
   componentDidMount() {
@@ -26,10 +34,8 @@ class Header extends React.Component {
   }
 
   handleScroll = () => {
-    const {
-      prevScrollpos
-    } = this.state;
 
+    const {prevScrollpos} = this.state;
     const currentScrollPos = window.pageYOffset;
     const visible = prevScrollpos > currentScrollPos;
 
@@ -39,18 +45,12 @@ class Header extends React.Component {
     });
   };
 
-  state = {
-    on: false,
-  };
-
-  openMenu = () => {
-    this.setState({
-      on: !this.state.on
-    });
-  };
-
   render() {
-    return(
+    let currentPath = window.location.pathname;
+    let navbar;
+
+    if (currentPath != "/test") {
+      navbar =
         <nav className = {
           classnames("navbar", {
             "navbar--hidden": !this.state.visible
@@ -58,11 +58,20 @@ class Header extends React.Component {
             }>
           <Link to="/"><img className="logo" src={logo} alt="logo"/></Link>
           <button onClick={this.openMenu}><img className="menu-button" src={menuIcon} alt="menu"/></button>
-            {this.state.on && (
+            {this.state.menuIsOn && (
               <MenuItems />
             )}
-        </nav>
-    )
+        </nav>;
+    } else {
+      navbar = <BackButton />;
+    }
+
+    return (
+      <div>
+        {navbar}
+      </div>
+    );
+
   }
 }
 
