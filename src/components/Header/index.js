@@ -1,11 +1,10 @@
 import React from 'react';
-import classnames from "classnames";
-// OBS! Dont remove un-used statements on the line below. It breaks the Links
-import { BrowserRouter as Router, Route, Link } from "react-router-dom";
 import './Header.css';
-import logo from '../../assets/images/logo.png';
-import menuIcon from '../../assets/images/menu.png';
+import classnames from "classnames";
 import MenuItems from '../MenuItems';
+import { BrowserRouter as Router, Route, Link } from "react-router-dom";
+import logo from '../../assets/images/logo.svg';
+import menuIcon from '../../assets/images/Cog.svg';
 
 class Header extends React.Component {
 
