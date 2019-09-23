@@ -12,6 +12,8 @@ class Header extends React.Component {
   constructor() {
     super();
 
+    this.handleClick = this.handleClick.bind(this);
+
     this.state = {
       prevScrollpos: window.pageYOffset,
       visible: true,
@@ -20,11 +22,12 @@ class Header extends React.Component {
     };
   };
 
-  openMenu = () => {
-    this.setState({
-      menuIsOn: !this.state.menuIsOn
+  handleClick (e) {
+    e.preventDefault();
+      this.setState({
+        menuIsOn: !this.state.menuIsOn
     });
-  };
+  }
 
   componentDidMount() {
     window.addEventListener("scroll", this.handleScroll);
@@ -57,8 +60,15 @@ class Header extends React.Component {
             "navbar--hidden": !this.state.visible
               })
             }>
-          <Link to="/"><img className="logo" src={logo} alt="logo"/></Link>
-          <button onClick={this.openMenu}><img className="menu-button" src={menuIcon} alt="menu"/></button>
+
+          <Link to="/">
+            <img className="logo" src={logo} alt="logo"/>
+          </Link>
+
+          <Link to="/" onClick={this.handleClick}>
+            <img className="menu-button" src={menuIcon} alt="menu"/>
+          </Link>
+
             {this.state.menuIsOn && (
               <MenuItems />
             )}
