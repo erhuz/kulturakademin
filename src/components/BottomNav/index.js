@@ -1,12 +1,21 @@
 import React from 'react';
 import './BottomNav.css';
 import { BrowserRouter as Router, Route, Link } from "react-router-dom";
-import homeIcon from '../../assets/images/home.svg';
+import homeIconActive from '../../assets/images/home-active.svg';
 import searchIcon from '../../assets/images/search.svg';
 import categeory from '../../assets/images/categeory.svg';
+import homeIcon from '../../assets/images/home.svg';
+import searchIconActive from '../../assets/images/search-active.svg';
+import categeoryActive from '../../assets/images/cat-active.svg';
 
-const BottomNav = () => {
-  return (
+class BottomNav extends React.Component {
+  constructor(props) {
+    super(props);
+    this.state = {  };
+  }
+
+  render() {
+    return (
     <div className="bottom-nav">
       <div className="nav-icons">
         <div className="left-icon">
@@ -20,7 +29,8 @@ const BottomNav = () => {
         </div>
       </div>
     </div>
-  );
+    );
+  }
 }
 
 export default BottomNav;
