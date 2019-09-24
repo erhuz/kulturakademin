@@ -1,7 +1,7 @@
-import React, { Component } from 'react'
-import DefaultLayout from '../../layouts/Default'
-import CategoriesContainer from '../../components/CategoriesContainer'
-import './Categories.css'
+import React, { Component } from 'react';
+import DefaultLayout from '../../layouts/Default';
+import CategoriesContainer from '../../components/CategoriesContainer';
+import './Categories.css';
 
 class Categories extends Component {
   render() {
@@ -11,7 +11,7 @@ class Categories extends Component {
       </DefaultLayout>
     )
   }
-}
+};
 
-export default Categories
+export default Categories;
 
