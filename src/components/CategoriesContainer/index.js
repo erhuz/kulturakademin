@@ -1,12 +1,12 @@
-import React, {Component} from 'react'
-import CategoriesButton from '../CategoriesButton'
-import categoriesData from '../../data/categoriesData'
+import React, {Component} from 'react';
+import CategoriesButton from '../CategoriesButton';
+import feedData from '../../data/feedData';
 
 
 class CategoriesContainer extends Component {
   render() {
 
-    const categoriesComponents = categoriesData.map(item => <CategoriesButton key={item.id} name={item.name} category={item.category} color={item.color}/>)
+    const categoriesComponents = feedData.map(item => <CategoriesButton key={item.key} category={item.category}/>);
 
     return(
       <div>
@@ -14,6 +14,6 @@ class CategoriesContainer extends Component {
       </div>
     )
   }
-}
+};
 
-export default CategoriesContainer
+export default CategoriesContainer;

@@ -18,7 +18,7 @@ function AppRouter() {
         {/* Declare routes here! */}
         <Route path="/" exact component={Index} />
         <Route path="/search/" component={Search} />
-        <Route path="/category/" component={Category} />
+        <Route path={"/category/:name"} component={Category} />
         <Route path="/categories/" component={Categories} />
         <Route path="/webcast/" component={Webcast} />
         <Route path="/podcast/" component={Podcast} />
