@@ -20,7 +20,7 @@
 }
 
 .close-button {
-  margin-left: 80%;
+  margin-left: 85%;
 }
 
 .menu-tittle h1 {
@@ -36,8 +36,8 @@
   color: #ffffff;
 }
 
-.close-button button {
-  font-size: 60px;
+.close-button a img {
+  margin-top: 18px;
 }
 
 .social-media {
