@@ -45,7 +45,7 @@ const Webcast = ({match}) => {
 
 
   const playerOptions = {
-    // height: window.innerHeight,
+    height: (window.innerHeight / 4),
     width: window.innerWidth,
     playerVars: { // https://developers.google.com/youtube/player_parameters
       modestbranding: 1
@@ -59,14 +59,18 @@ const Webcast = ({match}) => {
       opts={playerOptions} />
 
       {/* Video info */}
-      <div>
-        <div>
-          <h4 className="webcast-description-title">Description</h4>
-          <p className="webcast-description">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Turpis est lorem neque, volutpat dolor phasellus. Ut amet, amet egestas nibh bibendum urna</p>
+      <div className="webcast-info-container">
+        <div className="top-container">
+          <div className="webcast-description-container">
+            <h4 className="webcast-description-title">Description</h4>
+            <p className="webcast-description">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Turpis est lorem neque, volutpat dolor phasellus. Ut amet, amet egestas nibh bibendum urna</p>
+          </div>
         </div>
-        <div>
-          <h4 className="webcast-cast-title">Medverkande</h4>
-          <p className="webcast-cast">Christer Petterson, Ola Sävenäs</p>
+        <div className="bottom-container">
+          <div className="webcast-cast-container">
+            <h4 className="webcast-cast-title">Medverkande</h4>
+            <p className="webcast-cast">Christer Petterson, Ola Sävenäs</p>
+          </div>
         </div>
       </div>
 

@@ -1,19 +1,49 @@
 .webcast-info-container{
-  color: #fff;
+  margin-top: 8px;
+  padding: 16px;
+  padding-bottom: 8px;
+
+}
+
+.top-container{
+  border-top: 1px solid #fff;
+}
+
+.webcast-description-container{
+  margin: 24px 0;
 }
 
 .webcast-description-title{
-
+  color: #fff;
+  font-size: 16px;
+  font-weight: bold;
+  margin-bottom: 8px;
 }
 
 .webcast-description{
+  color: #fff;
+  font-size: 14px;
+  font-weight: normal;
+  max-width: 80%;
+}
 
+.bottom-container{
+  border-top: 1px solid #fff;
+}
+
+.webcast-cast-container{
+  margin: 24px 0;
 }
 
 .webcast-cast-title{
-
+  color: #fff;
+  font-size: 16px;
+  font-weight: bold;
+  margin-bottom: 8px;
 }
 
 .webcast-cast{
-
+  color: #fff;
+  font-size: 14px;
+  font-weight: normal;
 }
