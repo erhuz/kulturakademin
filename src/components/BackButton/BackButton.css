@@ -1,0 +1,15 @@
+.back-button {
+  height: 65px;
+  background-color: #242424;
+  width: 100%;
+  position: fixed;
+  top: 0;
+  overflow-x: hidden;
+  z-index: 1;
+  display: flex;
+  align-items: center;
+}
+
+.back-button-icon {
+  margin-left: 32px;
+}

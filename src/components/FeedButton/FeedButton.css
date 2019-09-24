@@ -1,0 +1,59 @@
+.btn {
+  width: 121px;
+  height: 121px;
+  background-color: grey;
+  border-radius: 8px;
+  margin: 15px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0;
+  padding-top: 27px;
+  border: none;
+
+}
+
+.play-btn {
+  height: 62px;
+  width: 62px;
+}
+
+.btn-info {
+  width: 121px;
+  height: 32px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.play-type {
+  height: 32px;
+  width: 32px;
+  background-color: black;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 0px 8px;
+}
+
+.play-type img {
+  height: 12px;
+  width: 12px;
+}
+
+.play-length {
+  height: 15px;
+  width: 47px;
+  background-color: black;
+  color: white;
+  font-size: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 8px;
+  margin-right: 8px;
+}
+
+

@@ -1,26 +1,26 @@
 const navlinks = [
     {
-      text: 'menuitem',
+      text: 'Logga in',
       path: '/'
     },
     {
-      text: 'menuitem',
+      text: 'Hjälp',
       path: '/'
     },
     {
-      text: 'menuitem',
+      text: 'Sekretess',
       path: '/'
     },
     {
-      text: 'menuitem',
+      text: 'Tillgänglighet',
       path: '/'
     },
     {
-      text: 'menuitem',
+      text: 'Sparat',
       path: '/'
     },
     {
-      text: 'menuitem',
+      text: 'Välj språk',
       path: '/'
     }
 ];
