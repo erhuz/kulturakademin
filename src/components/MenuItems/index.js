@@ -7,13 +7,19 @@ import twitterIcon from '../../assets/images/Vector1.svg';
 import linkedinIcon from '../../assets/images/Vector.svg';
 import closeButton from '../../assets/images/x.svg';
 import navlinks from '../../data/navlinks';
+
 class MenuItems extends React.Component{
 
-  state ={
-    on: true,
-  };
+    constructor() {
+        super();
 
-  closeMenu = () => {
+  this.handleClick = this.handleClick.bind(this);
+    this.state ={
+      on: true,
+    };
+  }
+
+  handleClick () {
     this.setState({
       on: !this.state.on
     });
@@ -24,7 +30,7 @@ class MenuItems extends React.Component{
       this.state.on &&(
         <div className="menu">
           <div className="close-button">
-            <button onClick={this.closeMenu}><img src={closeButton} alt="icon"/>  </button>
+            <a onClick={this.handleClick}><img src={closeButton} alt="icon"/></a>
           </div>
           <div className="menu-tittle">
             <h1>Inställningar</h1>
@@ -40,10 +46,10 @@ class MenuItems extends React.Component{
           </div>
           <div className="social-media">
               <p>Följ oss</p>
-              <a href=""><img src={instagramIcon} alt="icon"/></a>
-              <a href=""><img src={facebookIcon} alt="icon"/></a>
-              <a href=""><img src={twitterIcon} alt="icon"/></a>
-              <a href=""><img src={linkedinIcon} alt="icon"/></a>
+              <Link to=""><img src={instagramIcon} alt="icon"/></Link>
+              <Link to=""><img src={facebookIcon} alt="icon"/></Link>
+              <Link to=""><img src={twitterIcon} alt="icon"/></Link>
+              <Link to=""><img src={linkedinIcon} alt="icon"/></Link>
           </div>
         </div>
       )
