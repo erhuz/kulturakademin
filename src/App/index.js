@@ -12,7 +12,7 @@ import Test from '../pages/Test';
 function AppRouter() {
   return (
     <Router>
-      <div className="main"> </div>
+      <div className="padding-div"> </div>
       <div>
 
         {/* Declare routes here! */}
@@ -26,6 +26,7 @@ function AppRouter() {
         <Route path="/test/" component={Test} />
 
       </div>
+      <div className="padding-div"> </div>
     </Router>
   );
 }

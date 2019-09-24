@@ -10,9 +10,16 @@ class SearchComponent extends React.Component {
 
   render() {
     return (
-      <div className="search-bar">
-        <input className="search-input" type="text" placeholder="Resultat"/>
-        <a className="search-cancel" href="/">avbryt</a>
+      <div >
+        <div className="search-bar">
+          <input className="search-input" type="text" placeholder="Resultat"/>
+          <a className="search-cancel" href="/">avbryt</a>
+        </div>
+        <div className="video-or-podd">
+          <a> Video </a>
+          <div class="vertical-line"></div>
+          <a> Podd </a>
+        </div>
       </div>
     );
   }

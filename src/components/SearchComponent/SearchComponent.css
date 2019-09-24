@@ -3,6 +3,7 @@
   width: 100%;
   align-items: center;
   justify-content: center;
+  margin-top: 10px;
 }
 
 .search-input {
@@ -29,3 +30,23 @@
   margin-left: 16px;
   text-transform: uppercase;
 }
+
+.vertical-line {
+  border-left: 1px solid #fff;
+  height: 30px;
+  margin-right: 12px;
+}
+
+.video-or-podd {
+  display: flex;
+  flex-direction: row;
+  padding-left: 20px;
+  padding-top: 43px;
+  font-size: 24px;
+}
+
+.video-or-podd a {
+  margin-right: 12px;
+  color: #fff;
+}
+
