@@ -59,6 +59,16 @@ const Webcast = ({match}) => {
       opts={playerOptions} />
 
       {/* Video info */}
+      <div>
+        <div>
+          <h4 className="webcast-description-title">Description</h4>
+          <p className="webcast-description">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Turpis est lorem neque, volutpat dolor phasellus. Ut amet, amet egestas nibh bibendum urna</p>
+        </div>
+        <div>
+          <h4 className="webcast-cast-title">Medverkande</h4>
+          <p className="webcast-cast">Christer Petterson, Ola Sävenäs</p>
+        </div>
+      </div>
 
       <SwipeContainer items={testItems}/>
 
