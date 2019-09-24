@@ -1,5 +1,6 @@
 const feedData = [
   {
+    key: 1,
     Dans: [
       {
         id: 1,
@@ -39,6 +40,7 @@ const feedData = [
     ]
   },
   {
+    key: 2,
     Teater: [
       {
         id: 1,
@@ -78,6 +80,7 @@ const feedData = [
     ]
   },
   {
+    key: 3,
     Film: [
       {
         id: 1,
@@ -117,6 +120,7 @@ const feedData = [
     ]
   },
   {
+    key: 4,
     Musik: [
       {
         id: 1,
@@ -156,6 +160,7 @@ const feedData = [
     ]
   },
   {
+    key: 5,
     Kulturarbete: [
       {
         id: 1,
@@ -195,6 +200,7 @@ const feedData = [
     ]
   },
   {
+    key: 6,
     DigitalTeknik: [
       {
         id: 1,
@@ -234,6 +240,7 @@ const feedData = [
     ]
   },
   {
+    key: 7,
     Sparat: [
       {
         id: 1,
