@@ -41,7 +41,7 @@ class Header extends React.Component {
 
     const {prevScrollpos} = this.state;
     const currentScrollPos = window.pageYOffset;
-    const visible = prevScrollpos > currentScrollPos;
+    const visible = (prevScrollpos > currentScrollPos ||  65 > currentScrollPos);
 
     this.setState({
       prevScrollpos: currentScrollPos,
