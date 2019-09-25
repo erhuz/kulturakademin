@@ -1,0 +1,40 @@
+.playing {
+  height: 250px;
+  margin: 15px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.player-container {
+  height: 70px;
+  margin: 15px;
+}
+
+.options {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.previous {
+  height: 50px;
+  width: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.play-pause {
+  height: 50px;
+  width: 50px;
+  margin: 10px 20px;
+}
+
+.next {
+  height: 50px;
+  width: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
