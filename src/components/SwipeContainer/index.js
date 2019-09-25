@@ -2,6 +2,8 @@ import React, {Component} from 'react';
 import Swipe from 'react-easy-swipe';
 import SwipeItem from '../SwipeItem';
 import './SwipeContainer.css';
+// Look kids, don't be this guy. Dont put '.js' at the end of your npm package...
+const momentum = require('../../../node_modules/momentum.js/dist/momentum.min.js');
 
 class SwipeContainer extends Component {
 
