@@ -17,7 +17,7 @@ class SearchComponent extends React.Component {
         </div>
         <div className="video-or-podd">
           <a> Video </a>
-          <div class="vertical-line"></div>
+          <div className="vertical-line"></div>
           <a> Podd </a>
         </div>
       </div>
