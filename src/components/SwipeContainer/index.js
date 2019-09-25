@@ -12,21 +12,48 @@ class SwipeContainer extends Component {
 
     this.state = {
       offsetPosition: 0,
+      windowWidth: 0,
     }
+
+    this.updateWindowDimensions = this.updateWindowDimensions.bind(this);
+    this.InnerContainer = React.createRef();
+  }
+
+
+  componentDidMount() {
+    this.updateWindowDimensions();
+    window.addEventListener('resize', this.updateWindowDimensions);
+  }
+
+  componentWillUnmount() {
+    window.removeEventListener('resize', this.updateWindowDimensions);
+  }
+
+  updateWindowDimensions() {
+    this.setState({ windowWidth: window.innerWidth });
   }
 
   lastOffsetPosition = 0;
 
   setOffset(offset){
+    // console.log(this.InnerContainer.current);
 
     let currentOffset = (offset.x + this.lastOffsetPosition);
 
-    // console.log('Current: ' + currentOffset);
+    // negative because the offset translates to a negative offset
+    // (((width-of-swipe-item + (halfMargin * 2)) * amount-of-swipe-items) - screen-width)
+    let totalWidth = -(((121 + (10.87 * 2)) * 8) - this.state.windowWidth);
 
-    this.setState( {
-      offsetPosition: currentOffset
-    });
-    // console.log(this.state.offsetPosition);
+    if(currentOffset >= 0){
+      currentOffset = 0;
+    }
+    if(currentOffset <= totalWidth){
+      currentOffset = totalWidth;
+    }
+
+      this.setState( {
+        offsetPosition: currentOffset
+      });
   }
 
 
@@ -91,7 +118,7 @@ class SwipeContainer extends Component {
           onSwipeMove={(position, event) => this.onSwipeMove(position, event)}
           onSwipeEnd={(event) => this.onSwipeEnd(event)}>
           <div style={OuterSwipeContainer}>
-            <div style={InnerSwipeContainer}>
+            <div ref={this.InnerContainer} style={InnerSwipeContainer}>
               { childElements }
             </div>
           </div>
