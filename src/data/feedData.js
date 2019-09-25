@@ -76,7 +76,7 @@ const feedData = [
         id: 5,
         type: "pod",
         thumbnail: "",
-        description: "Nulhttps://images.unsplash.com/photo-1568622155247-675b7a01d1e4?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=634&q=80lam cursus lacinia erat. Vestibulum fringilla pede sit amet augue. Pellentesque libero tortor, tincidunt et, tincidunt eget, semper nec, quam.",
+        description: "https://images.unsplash.com/photo-1568622155247-675b7a01d1e4?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=634&q=80lam cursus lacinia erat. Vestibulum fringilla pede sit amet augue. Pellentesque libero tortor, tincidunt et, tincidunt eget, semper nec, quam.",
         header: "Lorem 5",
       },
     ]
@@ -116,8 +116,8 @@ const feedData = [
       {
         id: 5,
         type: "pod",
-        thumbnail: "",
-        description: "Nulhttps://images.unsplash.com/photo-1568622155247-675b7a01d1e4?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=634&q=80lam cursus lacinia erat. Vestibulum fringilla pede sit amet augue. Pellentesque libero tortor, tincidunt et, tincidunt eget, semper nec, quam.",
+        thumbnail: "https://images.unsplash.com/photo-1568622155247-675b7a01d1e4?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=634&q=80",
+        description: "Nullam cursus lacinia erat. Vestibulum fringilla pede sit amet augue. Pellentesque libero tortor, tincidunt et, tincidunt eget, semper nec, quam.",
         header: "Lorem 5",
       },
     ]
@@ -157,8 +157,8 @@ const feedData = [
       {
         id: 5,
         type: "pod",
-        thumbnail: "",
-        description: "Nulhttps://images.unsplash.com/photo-1568622155247-675b7a01d1e4?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=634&q=80lam cursus lacinia erat. Vestibulum fringilla pede sit amet augue. Pellentesque libero tortor, tincidunt et, tincidunt eget, semper nec, quam.",
+        thumbnail: "https://images.unsplash.com/photo-1568622155247-675b7a01d1e4?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=634&q=80",
+        description: "Nullam cursus lacinia erat. Vestibulum fringilla pede sit amet augue. Pellentesque libero tortor, tincidunt et, tincidunt eget, semper nec, quam.",
         header: "Lorem 5",
       },
     ]
@@ -198,8 +198,8 @@ const feedData = [
       {
         id: 5,
         type: "video",
-        thumbnail: "",
-        description: "Nulhttps://images.unsplash.com/photo-1568622155247-675b7a01d1e4?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=634&q=80lam cursus lacinia erat. Vestibulum fringilla pede sit amet augue. Pellentesque libero tortor, tincidunt et, tincidunt eget, semper nec, quam.",
+        thumbnail: "https://images.unsplash.com/photo-1568622155247-675b7a01d1e4?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=634&q=80",
+        description: "Nullam cursus lacinia erat. Vestibulum fringilla pede sit amet augue. Pellentesque libero tortor, tincidunt et, tincidunt eget, semper nec, quam.",
         header: "Lorem 5",
       },
     ]
@@ -239,8 +239,8 @@ const feedData = [
       {
         id: 5,
         type: "video",
-        thumbnail: "",
-        description: "Nulhttps://images.unsplash.com/photo-1568622155247-675b7a01d1e4?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=634&q=80lam cursus lacinia erat. Vestibulum fringilla pede sit amet augue. Pellentesque libero tortor, tincidunt et, tincidunt eget, semper nec, quam.",
+        thumbnail: "https://images.unsplash.com/photo-1568622155247-675b7a01d1e4?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=634&q=80",
+        description: "Nullam cursus lacinia erat. Vestibulum fringilla pede sit amet augue. Pellentesque libero tortor, tincidunt et, tincidunt eget, semper nec, quam.",
         header: "Lorem 5",
       },
     ]
