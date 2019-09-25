@@ -7,7 +7,7 @@ class Category extends Component {
   render() {
     return (
       <DefaultLayout>
-        <h2>{this.props.match.params.name}</h2>
+        <h2 className="category-header">{this.props.match.params.name}</h2>
         <FeedContainer category={this.props.match.params.name}/>
       </DefaultLayout>
     )
