@@ -13,6 +13,8 @@ class SwipeContainer extends Component {
     this.state = {
       offsetPosition: 0,
       windowWidth: 0,
+      amountOfChildren: 0,
+      totalChildWidth: 0,
     }
 
     this.updateWindowDimensions = this.updateWindowDimensions.bind(this);
@@ -21,6 +23,12 @@ class SwipeContainer extends Component {
 
 
   componentDidMount() {
+    let childWidth = parseFloat(this.InnerContainer.children[0].style.width.replace('px', ''));
+    childWidth += parseFloat(this.InnerContainer.children[0].style.marginLeft.replace('px', ''));
+    childWidth += parseFloat(this.InnerContainer.children[0].style.marginRight.replace('px', ''));
+
+    this.setState({ amountOfChildren: this.InnerContainer.children.length, totalChildWidth: childWidth });
+
     this.updateWindowDimensions();
     window.addEventListener('resize', this.updateWindowDimensions);
   }
@@ -36,13 +44,12 @@ class SwipeContainer extends Component {
   lastOffsetPosition = 0;
 
   setOffset(offset){
-    // console.log(this.InnerContainer.current);
 
     let currentOffset = (offset.x + this.lastOffsetPosition);
 
     // negative because the offset translates to a negative offset
     // (((width-of-swipe-item + (halfMargin * 2)) * amount-of-swipe-items) - screen-width)
-    let totalWidth = -(((121 + (10.87 * 2)) * 8) - this.state.windowWidth);
+    let totalWidth = -(((this.state.totalChildWidth) * this.state.amountOfChildren) - this.state.windowWidth);
 
     if(currentOffset >= 0){
       currentOffset = 0;
@@ -118,7 +125,7 @@ class SwipeContainer extends Component {
           onSwipeMove={(position, event) => this.onSwipeMove(position, event)}
           onSwipeEnd={(event) => this.onSwipeEnd(event)}>
           <div style={OuterSwipeContainer}>
-            <div ref={this.InnerContainer} style={InnerSwipeContainer}>
+            <div ref={(ref) => this.InnerContainer = ref} style={InnerSwipeContainer}>
               { childElements }
             </div>
           </div>
