@@ -1,6 +1,7 @@
 import React from "react";
 import './App.css'
 import { BrowserRouter as Router, Route } from "react-router-dom";
+import YoutubeApi from '../models/Youtube';
 import Categories from "../pages/Categories";
 import Category from "../pages/Category";
 import Podcast from "../pages/Podcast";
@@ -10,6 +11,16 @@ import Index from '../pages/Index';
 import Test from '../pages/Test';
 
 function AppRouter() {
+  const query = '';
+  const maxResults = 50;
+  const channelId = 'UCy0HB84UQmO6I3WTP9Flo2Q';
+
+  YoutubeApi.searchAll(query, maxResults, {channelId: channelId}).then((data) => {
+    console.log(data);
+  },(err) => {
+    console.error(err);
+  })
+
   return (
     <Router>
       <div className="padding-div"> </div>
