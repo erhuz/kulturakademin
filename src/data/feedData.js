@@ -207,7 +207,7 @@ const feedData = [
   {
     key: 6,
     category: "Digital Teknik",
-    DigitalTeknik: [
+    data: [
       {
         id: 1,
         type: "video",
@@ -248,7 +248,7 @@ const feedData = [
   {
     key: 7,
     category: "Sparat",
-    Sparat: [
+    data: [
       {
         id: 1,
         type: "pod",
