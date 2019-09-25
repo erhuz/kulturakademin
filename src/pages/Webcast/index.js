@@ -3,6 +3,7 @@ import { BrowserRouter as Router, Route, Link } from "react-router-dom";
 import DefaultLayout from '../../layouts/Default';
 import YouTube from 'react-youtube';
 import SwipeContainer from '../../components/SwipeContainer';
+import BackButton from '../../components/BackButton'
 import './Webcast.css'
 
 const Webcast = ({match}) => {
@@ -54,6 +55,7 @@ const Webcast = ({match}) => {
 
   return (
     <DefaultLayout>
+      <BackButton />
     <YouTube
       videoId={match.params.id}
       opts={playerOptions} />
