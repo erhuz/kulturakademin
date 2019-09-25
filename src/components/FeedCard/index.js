@@ -1,7 +1,8 @@
 import React, { Component } from 'react'
 import './FeedCard.css'
-import video from '../../assets/images/video.png'
+import webcast from '../../assets/images/video.png'
 import headphones from '../../assets/images/headphones.png';
+import { Link } from 'react-router-dom'
 
 class FeedCard extends Component {
   render() {
@@ -15,34 +16,43 @@ class FeedCard extends Component {
     }
 
     let showType;
+    let linkPath;
 
-    if(this.props.type === "pod" ? showType = headphones : showType = video);
+    if(this.props.type === "podcast") {
+      showType = headphones;
+      linkPath = "/podcast";
+    } else {
+      showType = webcast;
+      linkPath = "/webcast";
+    };
 
     return (
-      <div className="feedCard">
-        <button className="btn btn-image" style={bg}>
-          <div className="play-btn">
-            {/* Keeps rest in place. Change css later */}
-          </div>
-
-          <div className="btn-info">
-            <div className="play-type">
-              <img src={showType} alt=""/>
+      <Link to={{pathname:linkPath}} >
+        <div className="feedCard">
+          <button className="btn btn-image" style={bg}>
+            <div className="play-btn">
+              {/* Keeps rest in place. Change css later */}
             </div>
-            <div className="play-length">
-              <p>09:27</p>
+
+            <div className="btn-info">
+              <div className="play-type">
+                <img src={showType} alt=""/>
+              </div>
+              <div className="play-length">
+                <p>09:27</p>
+              </div>
             </div>
+
+          </button>
+
+          <div className="feedText">
+            <h2>{this.props.header}</h2>
+            <p>{this.props.description}</p>
           </div>
-
-        </button>
-
-        <div className="feedText">
-          <h2>{this.props.header}</h2>
-          <p>{this.props.description}</p>
         </div>
-      </div>
+       </Link>
     )
   }
-}
+};
 
 export default FeedCard
