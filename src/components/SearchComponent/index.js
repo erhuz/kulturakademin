@@ -1,6 +1,5 @@
 import React from 'react';
 import './SearchComponent.css'
-
 class SearchComponent extends React.Component {
 
   constructor(props) {
@@ -16,9 +15,9 @@ class SearchComponent extends React.Component {
           <a className="search-cancel" href="/">avbryt</a>
         </div>
         <div className="video-or-podd">
-          <a> Video </a>
+          <a>Video</a>
           <div className="vertical-line"></div>
-          <a> Podd </a>
+          <a>Pod</a>
         </div>
       </div>
     );
