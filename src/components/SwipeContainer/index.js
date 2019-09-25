@@ -93,11 +93,11 @@ class SwipeContainer extends Component {
     }
 
     const TitleContainer = {
-      // Todo: Add roboto light
       borderBottom: '1px solid #fff',
       margin: '10.87px',
       padding: '10.87px 0',
       fontSize: '24px',
+      fontWeight: 'normal'
     }
 
     const testTitle = "Recommended";
