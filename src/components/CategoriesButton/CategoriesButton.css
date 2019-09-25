@@ -1,5 +1,5 @@
 .categories-button {
-    width: calc(100vw - 30px);
+    /* width: calc(100vw - 30px); */
     height: 70px;
     margin: 15px;
     display: flex;
@@ -17,6 +17,8 @@
 
 .categories-arrow {
   transform: translateY(25px);
+  height: 20px;
+  padding-left: 10px;
 }
 
 

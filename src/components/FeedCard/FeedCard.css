@@ -1,41 +1,76 @@
 .feedCard {
   display: flex;
   flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
   margin: 15px;
   margin-bottom: 30px;
 }
 
-.cardBtn {
+.btn {
   width: 121px;
   height: 121px;
-  margin-right: 10px;
   background-color: grey;
   border-radius: 8px;
   display: flex;
   flex-direction: column;
-  justify-content: center;
+  justify-content: space-between;
   align-items: center;
-  padding: 5px;
+  padding-top: 27px;
+  border: none;
 }
 
-.type {
-  width: 24px;
-  height: 24px;;
+.play-btn {
+  height: 62px;
+  width: 62px;
+}
+
+.btn-info {
+  width: 121px;
+  height: 32px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.play-type {
+  height: 32px;
+  width: 32px;
+  background-color: black;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 0px 8px;
+}
+
+.play-length {
+  height: 15px;
+  width: 47px;
+  background-color: black;
+  color: white;
+  font-size: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 8px;
+  margin-right: 8px;
 }
 
 .feedText {
   width: 212px;
-  height: 121;
+  height: 120px;
   text-overflow: ellipsis;
   overflow-wrap: break-word;
   overflow: hidden;
-  color: white;
 }
 
-h3 {
+.feedText h2 {
   font-size: 16px;
+  color: white;
 }
 
 .feedText p {
   font-size: 14px;
+  color: #ACACAC;
 }
