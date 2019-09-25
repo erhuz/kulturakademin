@@ -33,8 +33,8 @@ function AppRouter() {
         <Route path="/categories/" component={Categories} />
         <Route path="/webcast/:id" component={Webcast} />
         <Route path="/podcast/:id" component={Podcast} />
-        <Route exact path="/webcast/" render={() => (<h3>No ID </h3>)} />
-        <Route exact path="/podcast/" render={() => (<h3>No ID </h3>)} />
+        <Route exact path="/webcast/" render={() => <h3 style={{ color: '#fff' }} >No ID </h3>} />
+        <Route exact path="/podcast/" render={() => <h3 style={{ color: '#fff' }} >No ID </h3>} />
         <Route path="/menu/" component={Test} />
         <Route path="/test/" component={Test} />
 
