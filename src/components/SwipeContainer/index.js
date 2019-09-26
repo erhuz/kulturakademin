@@ -2,6 +2,8 @@ import React, {Component} from 'react';
 import Swipe from 'react-easy-swipe';
 import SwipeItem from '../SwipeItem';
 import './SwipeContainer.css';
+// Look kids, don't be this guy. Dont put '.js' at the end of your npm package...
+import momentum from 'momentum.js/dist/momentum.min.js';
 
 class SwipeContainer extends Component {
 
@@ -10,7 +12,33 @@ class SwipeContainer extends Component {
 
     this.state = {
       offsetPosition: 0,
+      windowWidth: 0,
+      amountOfChildren: 0,
+      totalChildWidth: 0,
     }
+
+    this.updateWindowDimensions = this.updateWindowDimensions.bind(this);
+    this.InnerContainer = React.createRef();
+  }
+
+
+  componentDidMount() {
+    let childWidth = parseFloat(this.InnerContainer.children[0].style.width.replace('px', ''));
+    childWidth += parseFloat(this.InnerContainer.children[0].style.marginLeft.replace('px', ''));
+    childWidth += parseFloat(this.InnerContainer.children[0].style.marginRight.replace('px', ''));
+
+    this.setState({ amountOfChildren: this.InnerContainer.children.length, totalChildWidth: childWidth });
+
+    this.updateWindowDimensions();
+    window.addEventListener('resize', this.updateWindowDimensions);
+  }
+
+  componentWillUnmount() {
+    window.removeEventListener('resize', this.updateWindowDimensions);
+  }
+
+  updateWindowDimensions() {
+    this.setState({ windowWidth: window.innerWidth });
   }
 
   lastOffsetPosition = 0;
@@ -19,12 +47,20 @@ class SwipeContainer extends Component {
 
     let currentOffset = (offset.x + this.lastOffsetPosition);
 
-    // console.log('Current: ' + currentOffset);
+    // negative because the offset translates to a negative offset
+    // (((width-of-swipe-item + (halfMargin * 2)) * amount-of-swipe-items) - screen-width)
+    let totalWidth = -(((this.state.totalChildWidth) * this.state.amountOfChildren) - this.state.windowWidth);
 
-    this.setState( {
-      offsetPosition: currentOffset
-    });
-    // console.log(this.state.offsetPosition);
+    if(currentOffset >= 0){
+      currentOffset = 0;
+    }
+    if(currentOffset <= totalWidth){
+      currentOffset = totalWidth;
+    }
+
+      this.setState( {
+        offsetPosition: currentOffset
+      });
   }
 
 
@@ -64,11 +100,11 @@ class SwipeContainer extends Component {
     }
 
     const TitleContainer = {
-      // Todo: Add roboto light
       borderBottom: '1px solid #fff',
       margin: '10.87px',
       padding: '10.87px 0',
       fontSize: '24px',
+      fontWeight: 'normal'
     }
 
     const testTitle = "Recommended";
@@ -89,7 +125,7 @@ class SwipeContainer extends Component {
           onSwipeMove={(position, event) => this.onSwipeMove(position, event)}
           onSwipeEnd={(event) => this.onSwipeEnd(event)}>
           <div style={OuterSwipeContainer}>
-            <div style={InnerSwipeContainer}>
+            <div ref={(ref) => this.InnerContainer = ref} style={InnerSwipeContainer}>
               { childElements }
             </div>
           </div>

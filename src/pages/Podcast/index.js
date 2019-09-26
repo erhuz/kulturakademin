@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import DefaultLayout from '../../layouts/Default';
 import SwipeContainer from '../../components/SwipeContainer';
+import BackButton from '../../components/BackButton'
 import playPod from '../../assets/images/playPod.png';
 import nextPod from '../../assets/images/nextPod.png';
 import previousPod from '../../assets/images/previousPod.png';
@@ -50,6 +51,7 @@ class Podcast extends Component {
   render() {
     return (
       <DefaultLayout>
+
         <div className="playing">
           <img src={fakePodSlide} alt="fake slide" />
         </div>
@@ -85,6 +87,8 @@ class Podcast extends Component {
         </div>
 
           <SwipeContainer className="related-container" items={testItems}/>
+
+        <BackButton / >
 
       </DefaultLayout>
     )

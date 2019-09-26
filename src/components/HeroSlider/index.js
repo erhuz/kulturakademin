@@ -42,11 +42,6 @@ class HeroSlider extends Component {
       return <Slide img={slide.img} title={slide.title} description={slide.description} />
     });
 
-    const outerSlideContainerStyles = {
-      width: '100vw',
-      overflow: 'hidden'
-    }
-
     const innerSlideContainerStyles = {
       width: `${this.props.slides.length}00vw`,
       transform: `translateX(-${this.state.currentSlide}00vw)`,
@@ -54,7 +49,7 @@ class HeroSlider extends Component {
     }
 
     return(
-      <div style={outerSlideContainerStyles}>
+      <div id='outerSlideContainerStyles'>
         <div style={innerSlideContainerStyles}>
           {slides}
         </div>
