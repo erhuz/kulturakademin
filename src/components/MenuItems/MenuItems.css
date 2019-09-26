@@ -12,7 +12,6 @@
   font-weight: lighter;
   font-size: 24px;
   line-height: 150%;
-  letter-spacing: -0.04em;
 }
 
 .line {
@@ -20,13 +19,23 @@
 }
 
 .close-button {
-  margin-left: 85%;
+  margin-left: 88%;
 }
 
 .menu-tittle h1 {
   font-size: 40px;
   line-height: 47px;
   margin: 16px;
+
+}
+
+.menu-items {
+  width: 95%;
+  margin-top: 10px;
+}
+
+.menu-tittle {
+  width: 95%;
 }
 
 .menu-items a {
@@ -37,7 +46,7 @@
 }
 
 .close-button a img {
-  margin-top: 18px;
+  margin-top: 24px;
 }
 
 .social-media {
@@ -47,11 +56,32 @@
 .social-media p {
   margin-bottom: 16px;
   font-size: 24px;
+  margin-top: 18px;
 }
 
 .social-media a {
   margin-right: 23px;
 }
 
+.link-to {
+  width: 90%;
+  margin-left: 16px;
+  margin-top: 60px;
+  margin-bottom: 40px;
+}
+
+.link-to a {
+  color: #fff;
+}
+
+.link-to img {
+  margin-left: 15px;
+  margin-bottom: -3px;
+}
+
+.line-2 {
+  width: 90%;
+  margin-left: 16px;
+}
 
 

@@ -7,7 +7,7 @@ import twitterIcon from '../../assets/images/Vector1.svg';
 import linkedinIcon from '../../assets/images/Vector.svg';
 import closeButton from '../../assets/images/x.svg';
 import navlinks from '../../data/navlinks';
-
+import linkTo from '../../assets/images/to.svg';
 class MenuItems extends React.Component{
 
     constructor() {
@@ -33,7 +33,7 @@ class MenuItems extends React.Component{
             <a onClick={this.handleClick}><img src={closeButton} alt="icon"/></a>
           </div>
           <div className="menu-tittle">
-            <h1>Inställningar</h1>
+            <h1>Meny</h1>
             <hr className="line"></hr>
           </div>
           <div className="menu-items">
@@ -42,8 +42,12 @@ class MenuItems extends React.Component{
               <Link to={link.path}>{link.text}</Link>
             )}
 
-            <hr className="line"></hr>
           </div>
+          <div className="link-to">
+            <a href="https://www.kulturakademin.com">Kulturakademin</a>
+            <img src={linkTo} alt="icon"/>
+          </div>
+          <hr className="line-2"></hr>
           <div className="social-media">
               <p>Följ oss</p>
               <Link to=""><img src={instagramIcon} alt="icon"/></Link>

@@ -21,9 +21,9 @@ function AppRouter() {
         <Route path={"/category/:name"} component={Category} />
         <Route path="/categories/" component={Categories} />
         <Route path="/webcast/:id" component={Webcast} />
-        <Route path="/podcast/:id" component={Podcast} />
+        <Route path="/podcast/" component={Podcast} />
         <Route exact path="/webcast/" render={() => (<h3>No ID </h3>)} />
-        <Route exact path="/podcast/" render={() => (<h3>No ID </h3>)} />
+        {/* <Route exact path="/podcast/" render={() => (<h3>No ID </h3>)} /> */}
         <Route path="/menu/" component={Test} />
         <Route path="/test/" component={Test} />
 
@@ -31,6 +31,6 @@ function AppRouter() {
       <div className="padding-div"> </div>
     </Router>
   );
-}
+};
 
 export default AppRouter;
