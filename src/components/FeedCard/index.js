@@ -1,58 +1,56 @@
-import React, { Component } from 'react'
-import './FeedCard.css'
-import webcast from '../../assets/images/video.png'
+import React from 'react';
+import './FeedCard.css';
+import webcast from '../../assets/images/video.png';
 import headphones from '../../assets/images/headphones.png';
-import { Link } from 'react-router-dom'
+import { Link } from 'react-router-dom';
 
-class FeedCard extends Component {
-  render() {
+const FeedCard = (props) =>  {
 
-    const bg = {
-      background: 'linear-gradient(225deg, rgba(0,0,0,0) 25%, rgba(255,255,255,0.35) 100%), url(' + this.props.thumbnail + ')',
-      backgroundSize: 'cover',
-      backgroundRepeat: 'no-repeat',
-      backgroundPosition: 'center center',
-      userSelect: 'none',
-    }
+  const bg = {
+    background: 'linear-gradient(225deg, rgba(0,0,0,0) 25%, rgba(255,255,255,0.35) 100%), url(' + props.thumbnail + ')',
+    backgroundSize: 'cover',
+    backgroundRepeat: 'no-repeat',
+    backgroundPosition: 'center center',
+    userSelect: 'none',
+  };
 
-    let showType;
-    let linkPath;
+  let showType;
+  let linkPath;
 
-    if(this.props.type === "podcast") {
-      showType = headphones;
-      linkPath = "/podcast";
-    } else {
-      showType = webcast;
-      linkPath = "/webcast";
-    };
+  if(props.type === "podcast") {
+    showType = headphones;
+    linkPath = "/podcast";
+  } else {
+    showType = webcast;
+    linkPath = "/webcast";
+  };
 
-    return (
-      <Link to={{pathname:linkPath}} >
-        <div className="feedCard">
-          <button className="btn btn-image" style={bg}>
-            <div className="play-btn">
-              {/* Keeps rest in place. Change css later */}
-            </div>
-
-            <div className="btn-info">
-              <div className="play-type">
-                <img src={showType} alt=""/>
-              </div>
-              <div className="play-length">
-                <p>09:27</p>
-              </div>
-            </div>
-
-          </button>
-
-          <div className="feedText">
-            <h2>{this.props.header}</h2>
-            <p>{this.props.description}</p>
+  return (
+    <Link to={{pathname:linkPath}} >
+      <div className="feedCard">
+        <button className="btn btn-image" style={bg}>
+          <div className="play-btn">
+            {/* Keeps rest in place. Change css later */}
           </div>
+
+          <div className="btn-info">
+            <div className="play-type">
+              <img src={showType} alt=""/>
+            </div>
+            <div className="play-length">
+              <p>09:27</p>
+            </div>
+          </div>
+
+        </button>
+
+        <div className="feedText">
+          <h2>{props.header}</h2>
+          <p>{props.description}</p>
         </div>
-       </Link>
-    )
-  }
+      </div>
+    </Link>
+  );
 };
 
 export default FeedCard
