@@ -2,6 +2,8 @@ import React, {Component} from 'react';
 import { BrowserRouter as Router, Route, Link } from "react-router-dom";
 import TimeAgo from 'javascript-time-ago';
 import sv from 'javascript-time-ago/locale/sv'
+import webcast from '../../assets/images/video.png';
+import headphones from '../../assets/images/headphones.png';
 import './SwipeItem.css';
 
 class SwipeItem extends Component {
@@ -80,10 +82,35 @@ class SwipeItem extends Component {
     const timeAgo = new TimeAgo('sv-SE')
     const howLongAgo = timeAgo.format(new Date(item.snippet.publishedAt)).replace('för ', '');
 
+    let showType;
+    let linkPath;
+
+    // if(props.type === "podcast") {
+    //   showType = headphones;
+    //   linkPath = "/podcast";
+    // } else {
+      showType = webcast;
+      linkPath = "/webcast";
+    // };
+
     return (
         <div style={swipeItemContainer}>
           <Link to={'/'}>
-            <div style={swipeItem}></div>
+          <button className="btn btn-image" style={swipeItem}>
+          <div className="play-btn">
+            {/* Keeps rest in place. Change css later */}
+          </div>
+
+          <div className="btn-info">
+            <div className="play-type">
+              <img src={showType} alt=""/>
+            </div>
+            <div className="play-length">
+              <p>09:27</p>
+            </div>
+          </div>
+
+        </button>
             <h4 style={h4}>{itemTitle}</h4>
             <p style={p}>{itemDescription}</p>
             <p style={howLongAgoStyles}>{howLongAgo}</p>
