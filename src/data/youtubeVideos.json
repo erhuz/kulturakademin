@@ -1,0 +1,1061 @@
+{
+  "kind": "youtube#searchListResponse",
+  "etag": "\"p4VTdlkQv3HQeTEaXgvLePAydmU/YEIPwkOYt39T42uZagGttWvF-Z8\"",
+  "regionCode": "SE",
+  "pageInfo": {
+    "totalResults": 32,
+    "resultsPerPage": 50
+  },
+  "items": [
+    {
+      "kind": "youtube#searchResult",
+      "etag": "\"p4VTdlkQv3HQeTEaXgvLePAydmU/q62M7MN69hSGNCLQW_19XoSamrw\"",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "UmGkHDYJRk4"
+      },
+      "snippet": {
+        "publishedAt": "2019-02-22T11:39:55.000Z",
+        "channelId": "UCy0HB84UQmO6I3WTP9Flo2Q",
+        "title": "TV DRAMA VISION 2019: Sally Wainwright - big ideas in small towns",
+        "description": "Multi award winning British television writer, producer and director Sally Wainwright (Happy Valley, Last Tango in Halifax) on her career and the art of writing.",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/UmGkHDYJRk4/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/UmGkHDYJRk4/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/UmGkHDYJRk4/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "KULTURAKADEMIN WEBCAST",
+        "liveBroadcastContent": "none"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "\"p4VTdlkQv3HQeTEaXgvLePAydmU/Wzc5Y29Y331sXaLAqP4xJv8Aobk\"",
+      "id": {
+        "kind": "youtube#channel",
+        "channelId": "UCy0HB84UQmO6I3WTP9Flo2Q"
+      },
+      "snippet": {
+        "publishedAt": "2017-08-31T08:04:29.000Z",
+        "channelId": "UCy0HB84UQmO6I3WTP9Flo2Q",
+        "title": "KULTURAKADEMIN WEBCAST",
+        "description": "",
+        "thumbnails": {
+          "default": {
+            "url": "https://yt3.ggpht.com/-9l6GqFkOUZU/AAAAAAAAAAI/AAAAAAAAAAA/2gfCUGJCoFs/s88-c-k-no-mo-rj-c0xffffff/photo.jpg"
+          },
+          "medium": {
+            "url": "https://yt3.ggpht.com/-9l6GqFkOUZU/AAAAAAAAAAI/AAAAAAAAAAA/2gfCUGJCoFs/s240-c-k-no-mo-rj-c0xffffff/photo.jpg"
+          },
+          "high": {
+            "url": "https://yt3.ggpht.com/-9l6GqFkOUZU/AAAAAAAAAAI/AAAAAAAAAAA/2gfCUGJCoFs/s800-c-k-no-mo-rj-c0xffffff/photo.jpg"
+          }
+        },
+        "channelTitle": "KULTURAKADEMIN WEBCAST",
+        "liveBroadcastContent": "upcoming"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "\"p4VTdlkQv3HQeTEaXgvLePAydmU/6RgIB6nmdnVtVBe86b7H7A2mGRQ\"",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "OO-v7--wOtU"
+      },
+      "snippet": {
+        "publishedAt": "2019-04-16T12:50:50.000Z",
+        "channelId": "UCy0HB84UQmO6I3WTP9Flo2Q",
+        "title": "Masterclass med Pia Olby - Vad är sånggestaltning (del 1 av 4)",
+        "description": "Kulturakademin och Teateralliansens kursen i sånggestaltning erbjuder professionella skådespelare möjlighet att arbeta med och utveckla sin egen vokala och ...",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/OO-v7--wOtU/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/OO-v7--wOtU/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/OO-v7--wOtU/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "KULTURAKADEMIN WEBCAST",
+        "liveBroadcastContent": "none"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "\"p4VTdlkQv3HQeTEaXgvLePAydmU/rsdaSTf1EO2lAV6xvJkU48NqJS0\"",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "Nmf2V55mlgw"
+      },
+      "snippet": {
+        "publishedAt": "2019-04-16T12:50:59.000Z",
+        "channelId": "UCy0HB84UQmO6I3WTP9Flo2Q",
+        "title": "Masterclass med Pia Olby - Vad är skönsång (del 3 av 4)",
+        "description": "Kulturakademin och Teateralliansens kursen i sånggestaltning erbjuder professionella skådespelare möjlighet att arbeta med och utveckla sin egen vokala och ...",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/Nmf2V55mlgw/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/Nmf2V55mlgw/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/Nmf2V55mlgw/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "KULTURAKADEMIN WEBCAST",
+        "liveBroadcastContent": "none"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "\"p4VTdlkQv3HQeTEaXgvLePAydmU/rNkrZ4RMrJu-G2WgTkEecgb0Fqs\"",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "_BhiH3GG8pI"
+      },
+      "snippet": {
+        "publishedAt": "2019-01-27T13:47:02.000Z",
+        "channelId": "UCy0HB84UQmO6I3WTP9Flo2Q",
+        "title": "FÖRELÄSNING/SAMTAL: Den blomster tid nu kommer – ett halvår senare.",
+        "description": "Olle Tholén från filmkollektivet Crazy Pictures ser tillbaka på det kollektiva arbetet med den första långfilmen \"Den blomster tid nu kommer\". Föreläsningen pågår ...",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/_BhiH3GG8pI/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/_BhiH3GG8pI/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/_BhiH3GG8pI/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "KULTURAKADEMIN WEBCAST",
+        "liveBroadcastContent": "none"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "\"p4VTdlkQv3HQeTEaXgvLePAydmU/NQAVs88CZcYIcFFUUyp8jib6GWE\"",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "l2vcqaClw-A"
+      },
+      "snippet": {
+        "publishedAt": "2019-04-16T12:50:50.000Z",
+        "channelId": "UCy0HB84UQmO6I3WTP9Flo2Q",
+        "title": "Masterclass med Pia Olby - Kroppens betydelse i sång (del 4 av 4)",
+        "description": "Kulturakademin och Teateralliansens kursen i sånggestaltning erbjuder professionella skådespelare möjlighet att arbeta med och utveckla sin egen vokala och ...",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/l2vcqaClw-A/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/l2vcqaClw-A/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/l2vcqaClw-A/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "KULTURAKADEMIN WEBCAST",
+        "liveBroadcastContent": "none"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "\"p4VTdlkQv3HQeTEaXgvLePAydmU/yh4xk-BolJmATdPOtI5gd8NIz3M\"",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "qgjKQrgL0o0"
+      },
+      "snippet": {
+        "publishedAt": "2019-04-16T12:50:50.000Z",
+        "channelId": "UCy0HB84UQmO6I3WTP9Flo2Q",
+        "title": "Masterclass med Pia Olby - Textgestaltning och sånggestaltning (del 2 av 4)",
+        "description": "Kulturakademin och Teateralliansens kursen i sånggestaltning erbjuder professionella skådespelare möjlighet att arbeta med och utveckla sin egen vokala och ...",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/qgjKQrgL0o0/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/qgjKQrgL0o0/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/qgjKQrgL0o0/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "KULTURAKADEMIN WEBCAST",
+        "liveBroadcastContent": "none"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "\"p4VTdlkQv3HQeTEaXgvLePAydmU/LX0wqJRkCS0wLEf-kRFr7kx9Lwo\"",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "yGkn5KYk6sg"
+      },
+      "snippet": {
+        "publishedAt": "2019-03-11T15:49:35.000Z",
+        "channelId": "UCy0HB84UQmO6I3WTP9Flo2Q",
+        "title": "NEW ON THE MAP: REInvent Studios",
+        "description": "Rikke Ennis, CEO Reinvent Studios, Helene Aurø, Sales and Marketing Director Reinvent Studios. Moderator: Wendy Mitchell Recorded 2019-01-31 at the ...",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/yGkn5KYk6sg/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/yGkn5KYk6sg/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/yGkn5KYk6sg/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "KULTURAKADEMIN WEBCAST",
+        "liveBroadcastContent": "none"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "\"p4VTdlkQv3HQeTEaXgvLePAydmU/Y4p8Ur8K-6gFLCujLJp1knRGY8I\"",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "Ulxy5bL_Ivg"
+      },
+      "snippet": {
+        "publishedAt": "2019-02-05T15:42:50.000Z",
+        "channelId": "UCy0HB84UQmO6I3WTP9Flo2Q",
+        "title": "The 6th Nostradamus Report ”Relevance in a New Reality” - Johanna Koljonen (part 1 of 2)",
+        "description": "This year's report, ”Relevance in a New Reality”, discusses the uncertain future of public funding, major movements on the streaming market, the role of cinema ...",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/Ulxy5bL_Ivg/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/Ulxy5bL_Ivg/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/Ulxy5bL_Ivg/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "KULTURAKADEMIN WEBCAST",
+        "liveBroadcastContent": "none"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "\"p4VTdlkQv3HQeTEaXgvLePAydmU/PlZn9WT6pPFON_a3V5ihCGbfgSM\"",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "j3cNkxmhrDk"
+      },
+      "snippet": {
+        "publishedAt": "2019-02-22T15:30:24.000Z",
+        "channelId": "UCy0HB84UQmO6I3WTP9Flo2Q",
+        "title": "NOMINATED WRITERS – Patrik Syversen, Jesper Sundnes, Stig Frode Henriksen (Kieler Street, Norway)",
+        "description": "NORDISK FILM & TV FOND PRIZE: MEET THE NOMINATED WRITERS – Patrik Syversen, Jesper Sundnes, Stig Frode Henriksen (Kieler Street, Norway) ...",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/j3cNkxmhrDk/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/j3cNkxmhrDk/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/j3cNkxmhrDk/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "KULTURAKADEMIN WEBCAST",
+        "liveBroadcastContent": "none"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "\"p4VTdlkQv3HQeTEaXgvLePAydmU/TCFJNXzsJP75LCliNBfphKd0gEQ\"",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "lfyp0qF36VU"
+      },
+      "snippet": {
+        "publishedAt": "2019-02-22T15:17:07.000Z",
+        "channelId": "UCy0HB84UQmO6I3WTP9Flo2Q",
+        "title": "NOMINATED WRITERS – Mika Ronkainen, Merja Aakko (All the Sins, Finland)",
+        "description": "NORDISK FILM & TV FOND PRIZE: MEET THE NOMINATED WRITERS – Mika Ronkainen, Merja Aakko (All the Sins, Finland) Moderator: Wendy Mitchell ...",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/lfyp0qF36VU/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/lfyp0qF36VU/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/lfyp0qF36VU/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "KULTURAKADEMIN WEBCAST",
+        "liveBroadcastContent": "none"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "\"p4VTdlkQv3HQeTEaXgvLePAydmU/7_M3J-EXGJSY-K_MjQAsLtjGNDs\"",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "arPKOLILtkk"
+      },
+      "snippet": {
+        "publishedAt": "2018-10-18T19:06:59.000Z",
+        "channelId": "UCy0HB84UQmO6I3WTP9Flo2Q",
+        "title": "AUDIOVISUAL DAYS 2018: Johanna Koljonen &quot;Do or die&quot;",
+        "description": "Den femte Nostradamus-rapporten med den utmanande titeln ”Do or Die?” presenterades under Göteborg Film Festival 2018. Här ger rapportens författare ...",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/arPKOLILtkk/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/arPKOLILtkk/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/arPKOLILtkk/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "KULTURAKADEMIN WEBCAST",
+        "liveBroadcastContent": "none"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "\"p4VTdlkQv3HQeTEaXgvLePAydmU/K6Bwg5YqiR2mKu6qOYlEKIRKJek\"",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "qvWzFtNPbB4"
+      },
+      "snippet": {
+        "publishedAt": "2019-03-08T09:44:43.000Z",
+        "channelId": "UCy0HB84UQmO6I3WTP9Flo2Q",
+        "title": "NETFLIX´S AMBITIONS FOR THE NORDIC REGION: Lina Bronéus",
+        "description": "Meet Netflix´s Lina Bronéus, Drirector of Co-Productions & Acquisitions, in a keynote talk about the growing importance of the international markets for Netflix ...",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/qvWzFtNPbB4/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/qvWzFtNPbB4/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/qvWzFtNPbB4/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "KULTURAKADEMIN WEBCAST",
+        "liveBroadcastContent": "none"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "\"p4VTdlkQv3HQeTEaXgvLePAydmU/6Sq5R12KMLFRDqPkdPOQjE2smtI\"",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "uRkfLsPntFY"
+      },
+      "snippet": {
+        "publishedAt": "2019-03-07T15:11:16.000Z",
+        "channelId": "UCy0HB84UQmO6I3WTP9Flo2Q",
+        "title": "SPOTLIGHT ON ITALY: Nicola Serra from Palomar and Marco Chimenz from Cattleya",
+        "description": "Meet two of Italy´s top producers, Nicola Serra, Managing Director of Palomar and Marco Chimenz, Co-CEO of Cattleya, talking about their upcoming slates, ...",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/uRkfLsPntFY/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/uRkfLsPntFY/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/uRkfLsPntFY/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "KULTURAKADEMIN WEBCAST",
+        "liveBroadcastContent": "none"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "\"p4VTdlkQv3HQeTEaXgvLePAydmU/XOal6JCf50jRkFaOlLmYfYdnY44\"",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "uyJKlhOsf3s"
+      },
+      "snippet": {
+        "publishedAt": "2018-10-18T20:19:55.000Z",
+        "channelId": "UCy0HB84UQmO6I3WTP9Flo2Q",
+        "title": "AUDIOVISUAL DAYS 2018:  Panelsamtal: &quot;På spaning efter framtidens dramaserier&quot;",
+        "description": "Moderator: Johanna Koljonen, redaktör Nostradamus. Panel: Petri Kemppinen, CEO Nordisk Film & TV Fond, Tatjana Samopjan, Creative Development ...",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/uyJKlhOsf3s/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/uyJKlhOsf3s/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/uyJKlhOsf3s/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "KULTURAKADEMIN WEBCAST",
+        "liveBroadcastContent": "none"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "\"p4VTdlkQv3HQeTEaXgvLePAydmU/nUVS6sRq-mRgkaA3PYV2rcWyzt8\"",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "ylK-RNFy2wo"
+      },
+      "snippet": {
+        "publishedAt": "2019-03-07T08:27:05.000Z",
+        "channelId": "UCy0HB84UQmO6I3WTP9Flo2Q",
+        "title": "THE SCRIPT FACTORY INTRODUCES THE COMEDY LAB",
+        "description": "Speaker: Niclas Ekström, screenwriter and project manager, The Script Factory Moderator: Wendy Mitchell Recorded 2019-01-31 at the two-day conference ”TV ...",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/ylK-RNFy2wo/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/ylK-RNFy2wo/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/ylK-RNFy2wo/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "KULTURAKADEMIN WEBCAST",
+        "liveBroadcastContent": "none"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "\"p4VTdlkQv3HQeTEaXgvLePAydmU/CAzn_iKs5u3Hs316JVJ9_fRlaPo\"",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "DyTBdvHvrbA"
+      },
+      "snippet": {
+        "publishedAt": "2018-11-26T13:15:35.000Z",
+        "channelId": "UCy0HB84UQmO6I3WTP9Flo2Q",
+        "title": "Stråf Vocal Strings - Att spela för en ung publik",
+        "description": "Stråf Vocal Strings framför en del av sin föreställning Familia samt berättar om sin arbetsprocess och hur de möter den unga publiken. Stråf Vocal Strings består ...",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/DyTBdvHvrbA/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/DyTBdvHvrbA/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/DyTBdvHvrbA/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "KULTURAKADEMIN WEBCAST",
+        "liveBroadcastContent": "none"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "\"p4VTdlkQv3HQeTEaXgvLePAydmU/rpDDkWiCYxKdM-qrU5QtUbsEnq0\"",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "V_oSKSC2l-w"
+      },
+      "snippet": {
+        "publishedAt": "2019-02-22T15:23:59.000Z",
+        "channelId": "UCy0HB84UQmO6I3WTP9Flo2Q",
+        "title": "NOMINATED WRITERS – Margrét Örnólfdóttir (The Flatey Enigma, Iceland)",
+        "description": "NORDISK FILM & TV FOND PRIZE: MEET THE NOMINATED WRITERS – Margrét Örnólfdóttir (The Flatey Enigma, Iceland) Moderator: Wendy Mitchell ...",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/V_oSKSC2l-w/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/V_oSKSC2l-w/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/V_oSKSC2l-w/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "KULTURAKADEMIN WEBCAST",
+        "liveBroadcastContent": "none"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "\"p4VTdlkQv3HQeTEaXgvLePAydmU/XUxJmHyvtT4m3OJSrxRDqBunEDk\"",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "XDXQLTP3Yn8"
+      },
+      "snippet": {
+        "publishedAt": "2019-01-30T17:38:35.000Z",
+        "channelId": "UCy0HB84UQmO6I3WTP9Flo2Q",
+        "title": "TV DRAMA VISION 2019: Introduction/Nordisk Film &amp; TV Fond Prize: Meet the jury",
+        "description": "Welcome and introduction by Cia Edström, Head of TV Drama Vision, Wendy Mitchell, moderator. --------------------------------------------------------- Nordisk Film & TV ...",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/XDXQLTP3Yn8/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/XDXQLTP3Yn8/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/XDXQLTP3Yn8/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "KULTURAKADEMIN WEBCAST",
+        "liveBroadcastContent": "none"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "\"p4VTdlkQv3HQeTEaXgvLePAydmU/ZSjWjReM7txEOnsIj6Ry0k7Pr3Y\"",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "eYVU04XHop8"
+      },
+      "snippet": {
+        "publishedAt": "2019-01-30T17:54:12.000Z",
+        "channelId": "UCy0HB84UQmO6I3WTP9Flo2Q",
+        "title": "TV DRAMA VISION 2019: The Art of Writing for Television - the leap from book to script",
+        "description": "The Art of Writing for Television - the leap from book to script. Targeting the creative process of storytelling in episodic drama, we meet the acclaimed Swedish ...",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/eYVU04XHop8/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/eYVU04XHop8/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/eYVU04XHop8/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "KULTURAKADEMIN WEBCAST",
+        "liveBroadcastContent": "none"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "\"p4VTdlkQv3HQeTEaXgvLePAydmU/BJm3ZBDMB2GicgFZqU_kF48xTjs\"",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "m2OIPCroyvk"
+      },
+      "snippet": {
+        "publishedAt": "2019-02-22T15:43:54.000Z",
+        "channelId": "UCy0HB84UQmO6I3WTP9Flo2Q",
+        "title": "NOMINATED WRITERS – Claudia Boderke, Lars Mering (The New Nurses, Danmark)",
+        "description": "NORDISK FILM & TV FOND PRIZE: MEET THE NOMINATED WRITERS – Claudia Boderke, Lars Mering (The New Nurses, Danmark) Moderator: Wendy ...",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/m2OIPCroyvk/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/m2OIPCroyvk/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/m2OIPCroyvk/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "KULTURAKADEMIN WEBCAST",
+        "liveBroadcastContent": "none"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "\"p4VTdlkQv3HQeTEaXgvLePAydmU/NkI9modrMEqBje91PGr3-rmFk7Q\"",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "tzZXIyfk8n8"
+      },
+      "snippet": {
+        "publishedAt": "2019-03-04T12:57:16.000Z",
+        "channelId": "UCy0HB84UQmO6I3WTP9Flo2Q",
+        "title": "THE BROADCASTERS´ POINT OF VIEW WITH LISELOTT FORSMAN (International Drama at YLE)",
+        "description": "FROM THE NORDICS TO EUROPE TO THE WORLD Liselott Forsman, Executive Producer of International Drama at YLE and the Head of Fiction Experts at ...",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/tzZXIyfk8n8/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/tzZXIyfk8n8/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/tzZXIyfk8n8/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "KULTURAKADEMIN WEBCAST",
+        "liveBroadcastContent": "none"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "\"p4VTdlkQv3HQeTEaXgvLePAydmU/sUaaurIOya-CybZ45u7eFmIufz8\"",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "KOkIAZhz3OA"
+      },
+      "snippet": {
+        "publishedAt": "2019-09-19T13:04:01.000Z",
+        "channelId": "UCy0HB84UQmO6I3WTP9Flo2Q",
+        "title": "ART AND BUSINESS - Thomas Jäderlund",
+        "description": "ART AND BUSINESS är ett pilotprojekt mellan Kulturakademin, Kultur i Väst, Högskolan för scen och musik och ADA inom Business Region Göteborg. Kursen ...",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/KOkIAZhz3OA/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/KOkIAZhz3OA/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/KOkIAZhz3OA/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "KULTURAKADEMIN WEBCAST",
+        "liveBroadcastContent": "none"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "\"p4VTdlkQv3HQeTEaXgvLePAydmU/S7ZJc_YTQEdZy6bS3zTBlsnCIOM\"",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "qIyf8foXliQ"
+      },
+      "snippet": {
+        "publishedAt": "2018-11-26T10:55:22.000Z",
+        "channelId": "UCy0HB84UQmO6I3WTP9Flo2Q",
+        "title": "Om synlighet och bidragssystem för musiker som spelar för en ung publik",
+        "description": "Vilka bidragssystem finns i Göteborgs stad och Västra Götalandsregionen för att spela för en ung publik? Och på vilka plattformar finns möjlighet att synas?",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/qIyf8foXliQ/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/qIyf8foXliQ/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/qIyf8foXliQ/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "KULTURAKADEMIN WEBCAST",
+        "liveBroadcastContent": "none"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "\"p4VTdlkQv3HQeTEaXgvLePAydmU/LXfy45KroFHTlXgv-3VLYyRc6jw\"",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "fA0RUE-Kf1Y"
+      },
+      "snippet": {
+        "publishedAt": "2019-09-20T10:58:43.000Z",
+        "channelId": "UCy0HB84UQmO6I3WTP9Flo2Q",
+        "title": "ART AND BUSINESS - Johanna Ginstmark",
+        "description": "ART AND BUSINESS är ett pilotprojekt mellan Kulturakademin, Kultur i Väst, Högskolan för scen och musik och ADA inom Business Region Göteborg. Kursen ...",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/fA0RUE-Kf1Y/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/fA0RUE-Kf1Y/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/fA0RUE-Kf1Y/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "KULTURAKADEMIN WEBCAST",
+        "liveBroadcastContent": "none"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "\"p4VTdlkQv3HQeTEaXgvLePAydmU/bxTvNl6F5ILpwUKToA3RxNN2yFg\"",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "JxEAzfezxbY"
+      },
+      "snippet": {
+        "publishedAt": "2018-11-26T10:09:05.000Z",
+        "channelId": "UCy0HB84UQmO6I3WTP9Flo2Q",
+        "title": "Flertal tips för musiker som spelar för en ung publik",
+        "description": "Producentbyråns Julia Sjönneby tipsar om de bästa sätten för musiker som spelar för en ung publik att marknadsföra sig och kommunicera med arrangörer.",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/JxEAzfezxbY/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/JxEAzfezxbY/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/JxEAzfezxbY/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "KULTURAKADEMIN WEBCAST",
+        "liveBroadcastContent": "none"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "\"p4VTdlkQv3HQeTEaXgvLePAydmU/d7QRBrlUHPbs2Q8I1636-ZFwwKk\"",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "QM2T14Shc0g"
+      },
+      "snippet": {
+        "publishedAt": "2019-02-22T15:48:34.000Z",
+        "channelId": "UCy0HB84UQmO6I3WTP9Flo2Q",
+        "title": "NOMINATED WRITERS – Mette M Bølstad (State of Happiness, Norway)",
+        "description": "NORDISK FILM & TV FOND PRIZE: MEET THE NOMINATED WRITERS – Mette.M.Bølstad (State of Happiness, Norway) Moderator: Wendy Mitchell Recorded ...",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/QM2T14Shc0g/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/QM2T14Shc0g/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/QM2T14Shc0g/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "KULTURAKADEMIN WEBCAST",
+        "liveBroadcastContent": "none"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "\"p4VTdlkQv3HQeTEaXgvLePAydmU/sFboa9tuubv8Ywm-SeHEuTOrrPE\"",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "2eDYHYWUxU4"
+      },
+      "snippet": {
+        "publishedAt": "2019-02-22T15:39:49.000Z",
+        "channelId": "UCy0HB84UQmO6I3WTP9Flo2Q",
+        "title": "NOMINATED WRITERS – Håkan Lindhé (The Inner Circle, Sweden)",
+        "description": "NORDISK FILM & TV FOND PRIZE: MEET THE NOMINATED WRITERS – Håkan Lindhé (The Inner Circle, Sweden) Moderator: Wendy Mitchell Recorded ...",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/2eDYHYWUxU4/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/2eDYHYWUxU4/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/2eDYHYWUxU4/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "KULTURAKADEMIN WEBCAST",
+        "liveBroadcastContent": "none"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "\"p4VTdlkQv3HQeTEaXgvLePAydmU/warpRcY4G_zBqRjTfYSz3BrYEf0\"",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "-lZxocIB8GA"
+      },
+      "snippet": {
+        "publishedAt": "2019-03-06T15:41:22.000Z",
+        "channelId": "UCy0HB84UQmO6I3WTP9Flo2Q",
+        "title": "JON PLOWMAN ON HOW TO CREATE GOOD COMEDY AND WHY WE NEED LESS DRAMA",
+        "description": "Moderator: Wendy Mitchell Recorded 2019-01-31 at the two-day conference ”TV Drama Vision” Göteborg Film Festival. Presented in collaboration with ...",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/-lZxocIB8GA/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/-lZxocIB8GA/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/-lZxocIB8GA/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "KULTURAKADEMIN WEBCAST",
+        "liveBroadcastContent": "none"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "\"p4VTdlkQv3HQeTEaXgvLePAydmU/DgvUKZ0Kqtf80S1rr_3Bs5TVUXM\"",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "cH7u1wazvmk"
+      },
+      "snippet": {
+        "publishedAt": "2019-02-02T13:39:20.000Z",
+        "channelId": "UCy0HB84UQmO6I3WTP9Flo2Q",
+        "title": "MASTERCLASS WITH JON PLOWMAN - HOW TO PRODUCE COMEDY BRONZE",
+        "description": "The legendary british BBC producer Jon Plowman is the man behind humorous, innovative successes like Absolutely Fabulous, The Office and Extras. Over a ...",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/cH7u1wazvmk/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/cH7u1wazvmk/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/cH7u1wazvmk/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "KULTURAKADEMIN WEBCAST",
+        "liveBroadcastContent": "none"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "\"p4VTdlkQv3HQeTEaXgvLePAydmU/bIpnBlEm2CCgILrl3sMSa3dLvmo\"",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "ZRN02FV5KKo"
+      },
+      "snippet": {
+        "publishedAt": "2019-01-30T17:57:04.000Z",
+        "channelId": "UCy0HB84UQmO6I3WTP9Flo2Q",
+        "title": "TV DRAMA VISION 2019: Nostradamus @ TV Drama Vision: Streaming Shapes the Landscape",
+        "description": "Nostradamus @ TV Drama Vision: Streaming Shapes the Landscape. Change in the world of episodic drama is accelerating thanks to the global expansion of ...",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/ZRN02FV5KKo/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/ZRN02FV5KKo/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/ZRN02FV5KKo/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "KULTURAKADEMIN WEBCAST",
+        "liveBroadcastContent": "none"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "\"p4VTdlkQv3HQeTEaXgvLePAydmU/c3KNotvMMkH3dLeUUCGQjKi9qZA\"",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "744CLQ_OqTI"
+      },
+      "snippet": {
+        "publishedAt": "2019-02-06T07:17:53.000Z",
+        "channelId": "UCy0HB84UQmO6I3WTP9Flo2Q",
+        "title": "The 6th Nostradamus Report - Discussion (part 2 of 2)",
+        "description": "The presentation of the 6th report at Göteborg Film Festival February 1 was followed by a discussion with Tomas Eskilsson, Head of Strategy, Film i Väst; Maria ...",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/744CLQ_OqTI/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/744CLQ_OqTI/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/744CLQ_OqTI/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "KULTURAKADEMIN WEBCAST",
+        "liveBroadcastContent": "none"
+      }
+    }
+  ]
+}
