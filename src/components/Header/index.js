@@ -65,7 +65,7 @@ class Header extends React.Component {
           <img className="logo" src={logo} alt="logo"/>
         </Link>
 
-        <Link to="/" onClick={this.handleClick}>
+        <Link onClick={this.handleClick}>
           <img className="menu-button" src={menuIcon} alt="menu"/>
         </Link>
 
