@@ -113,7 +113,7 @@ class SwipeContainer extends Component {
       transform: 'translateY(3px)',
     }
 
-    const testTitle = "Recommended";
+    const testTitle = this.props.title;
 
     const childElements = YoutubeVideos.items.map( (item, index) => {
       if(item.id.kind !== 'youtube#channel'){
