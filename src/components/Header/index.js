@@ -5,7 +5,8 @@ import MenuItems from '../MenuItems';
 import BackButton from '../BackButton';
 import { BrowserRouter as Router, Route, Link } from "react-router-dom";
 import logo from '../../assets/images/logo.svg';
-import menuIcon from '../../assets/images/Cog.svg';
+import menuIcon from '../../assets/images/hamburger-menu.svg';
+
 class Header extends React.Component {
 
   constructor() {
