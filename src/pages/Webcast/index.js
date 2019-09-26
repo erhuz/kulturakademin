@@ -25,7 +25,7 @@ const Webcast = ({match}) => {
       opts={playerOptions} />
 
       {/* Video info */}
-      <ContentDescriptionContainer />
+      <ContentDescriptionContainer platform={'youtube'} videoId={match.params.id} />
 
       <SwipeContainer title={'Relaterat'} />
 
