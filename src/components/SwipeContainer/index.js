@@ -2,6 +2,7 @@ import React, {Component} from 'react';
 import Swipe from 'react-easy-swipe';
 import SwipeItem from '../SwipeItem';
 import './SwipeContainer.css';
+import YoutubeVideos from '../../data/youtubeVideos.json';
 // Look kids, don't be this guy. Dont put '.js' at the end of your npm package...
 import momentum from 'momentum.js/dist/momentum.min.js';
 
@@ -97,6 +98,7 @@ class SwipeContainer extends Component {
 
     const ContainerTitle = {
       color: '#ffffff',
+      fontWeight: 'normal'
     }
 
     const TitleContainer = {
@@ -107,16 +109,22 @@ class SwipeContainer extends Component {
       fontWeight: 'normal'
     }
 
+    const titleArrow = {
+      transform: 'translateY(3px)',
+    }
+
     const testTitle = "Recommended";
 
-
-
-    const childElements = items.map(item => <SwipeItem key={item.index} index={item.index} backgroundUrl={item.backgroundUrl}/>)
+    const childElements = YoutubeVideos.items.map( (item, index) => {
+      if(item.id.kind !== 'youtube#channel'){
+        return (<SwipeItem key={index} item={item} />)
+      }
+    })
 
     return (
       <div>
         <div style={TitleContainer}>
-          <h4 style={ContainerTitle}>{testTitle}</h4>
+          <h4 style={ContainerTitle}>{testTitle} ({childElements.length - 1}) <img style={titleArrow} src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAwAAAAVCAYAAAByrA+0AAAACXBIWXMAAAsTAAALEwEAmpwYAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAB/SURBVHgBxZJbDYAwDEUXFFTCJEzCJOAApCBhDjYHSEECEpBwKaEJ+yDskTTcpOnPOVub1JieAJhxZyqxg3SSnlgaTU0YXOSXg8upSqFHSplkW6VdT2KIuLZMohrJ4YkvwVZevhJLMGXw9w4vs/8Bi7C2wFEN9mi5Tlk0oPKUT39+ICU165QZAAAAAElFTkSuQmCC" alt=""></img></h4>
         </div>
 
         <Swipe
