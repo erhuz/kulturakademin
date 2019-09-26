@@ -1,4 +1,4 @@
-/* .webcast-info-container{
+.content-info-container{
   margin-top: 8px;
   padding: 16px;
   padding-bottom: 8px;
@@ -7,21 +7,40 @@
 
 .top-container{
   border-top: 1px solid #fff;
+  display: flex;
 }
 
-.webcast-description-container{
+.call-to-action {
+  display: flex;
+  width: 48px;
+  justify-content: space-between;
+  margin: 15px;
+}
+.share-btn {
+  height: 18px;
+  width: 18px;
+  margin: 6px;
+}
+
+.bookmark-btn {
+  height: 18px;
+  width: 14px;
+  margin: 6px;
+}
+
+.content-description-container{
   margin: 24px 0;
 }
 
-.webcast-description-title{
+.content-description-title{
   color: #fff;
   font-size: 16px;
   font-weight: bold;
   margin-bottom: 8px;
 }
 
-.webcast-description{
-  color: #fff;
+.content-description{
+  color: #ACACAC;
   font-size: 14px;
   font-weight: normal;
   max-width: 80%;
@@ -31,23 +50,19 @@
   border-top: 1px solid #fff;
 }
 
-.webcast-cast-container{
+.content-cast-container{
   margin: 24px 0;
 }
 
-.webcast-cast-title{
+.content-cast-title{
   color: #fff;
   font-size: 16px;
   font-weight: bold;
   margin-bottom: 8px;
 }
 
-.webcast-cast{
-  color: #fff;
+.content-cast{
+  color: #ACACAC;
   font-size: 14px;
   font-weight: normal;
-} */
-
-.middle-container {
-
 }
