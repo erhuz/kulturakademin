@@ -10,6 +10,7 @@ import fakePodSlide from '../../assets/images/fakePodSlide.png';
 import share from '../../assets/images/share.png';
 import bookmark from '../../assets/images/bookmark.png';
 import './Podcast.css';
+import ContentDescriptionContainer from '../../components/ContentDescriptionContainer';
 
 const testItems = [
 
@@ -72,21 +73,10 @@ class Podcast extends Component {
         </div>
 
         <div className="middle-container">
-          <div className="podcast-description-container">
-            <h4>Medverkande:</h4>
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-          </div>
-            <div className="action-buttons">
-              <div>
-                <img src={share} alt=""/>
-              </div>
-              <div>
-                <img src={bookmark} alt=""/>
-              </div>
-            </div>
+          <ContentDescriptionContainer />
         </div>
 
-          <SwipeContainer className="related-container" items={testItems}/>
+        <SwipeContainer className="related-container" items={testItems}/>
 
         <BackButton / >
 

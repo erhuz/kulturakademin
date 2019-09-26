@@ -63,6 +63,7 @@
   text-overflow: ellipsis;
   overflow-wrap: break-word;
   overflow: hidden;
+  margin-left: 15px;
 }
 
 .feedText h2 {
