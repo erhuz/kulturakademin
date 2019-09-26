@@ -6,7 +6,7 @@ import playPod from '../../assets/images/playPod.png';
 import nextPod from '../../assets/images/nextPod.png';
 import previousPod from '../../assets/images/previousPod.png';
 import progressBar from '../../assets/images/progressBar.png';
-import fakePodSlide from '../../assets/images/fakePodSlide.png';
+import fakeSlider from '../../assets/images/fakeSlider.png';
 import share from '../../assets/images/share.png';
 import bookmark from '../../assets/images/bookmark.png';
 import './Podcast.css';
@@ -54,7 +54,7 @@ class Podcast extends Component {
       <DefaultLayout>
 
         <div className="playing">
-          <img src={fakePodSlide} alt="fake slide" />
+          <img src={fakeSlider} alt="fake slide" />
         </div>
 
         <div className="player-container">
