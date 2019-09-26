@@ -90,12 +90,12 @@ class SwipeItem extends Component {
     //   linkPath = "/podcast";
     // } else {
       showType = webcast;
-      linkPath = "/webcast";
+      linkPath = '/webcast/' + item.id.videoId;
     // };
 
     return (
         <div style={swipeItemContainer}>
-          <Link to={'/'}>
+          <Link to={linkPath}>
           <button className="btn btn-image" style={swipeItem}>
           <div className="play-btn">
             {/* Keeps rest in place. Change css later */}
