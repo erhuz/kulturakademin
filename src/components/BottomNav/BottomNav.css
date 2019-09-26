@@ -21,6 +21,11 @@
 
 .left-icon a {
     margin-left: 3px;
+    margin-bottom: 100px;
+}
+
+.left-icon span {
+  margin-bottom: 7px;
 }
 
 .nav-icons span {

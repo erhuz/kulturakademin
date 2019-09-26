@@ -5,7 +5,7 @@ import homeIconActive from '../../assets/images/home-active.svg';
 import searchIcon from '../../assets/images/search.svg';
 import categeory from '../../assets/images/categeory.svg';
 import homeIcon from '../../assets/images/home.svg';
-import searchIconActive from '../../assets/images/search-active.svg';
+import searchIconActive from '../../assets/images/search-active.png';
 import categeoryActive from '../../assets/images/cat-active.svg';
 
 class BottomNav extends React.Component {
