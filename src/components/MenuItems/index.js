@@ -39,7 +39,7 @@ class MenuItems extends React.Component{
           <div className="menu-items">
 
             {navlinks.map(link =>
-              <Link to={link.path}>{link.text}</Link>
+              <Link to={link.path} key={link.id}>{link.text}</Link>
             )}
 
           </div>
