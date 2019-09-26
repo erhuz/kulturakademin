@@ -2,6 +2,7 @@ import React from 'react';
 import './FeedCard.css';
 import webcast from '../../assets/images/video.png';
 import headphones from '../../assets/images/headphones.png';
+import arrow from '../../assets/images/arrow.png';
 import { Link } from 'react-router-dom';
 
 const FeedCard = (props) =>  {
@@ -63,7 +64,10 @@ const FeedCard = (props) =>  {
         </button>
 
         <div className="feedText">
-          <h2>{itemTitle}</h2>
+          <div className="bla">
+            <h2>{itemTitle}</h2>
+            <img className="feed-arrow" src={arrow} alt=""/>
+          </div>
           <p>{itemDescription}</p>
         </div>
       </div>

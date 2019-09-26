@@ -75,3 +75,13 @@
   font-size: 14px;
   color: #ACACAC;
 }
+
+.bla {
+display: flex;
+align-items: center;
+}
+
+.feed-arrow {
+  height: 13px;
+  padding-left: 8px;
+}
