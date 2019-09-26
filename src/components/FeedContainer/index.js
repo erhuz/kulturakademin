@@ -25,10 +25,17 @@ const FeedContainer = (props) => {
   const feedContainer = youtubeVideos.items.map( (item, index) => {
     if(item.id.kind !== 'youtube#channel'){
 
+      let contentType = 'webcast';
+
+      if(index === 3){
+        contentType = 'podcast';
+      }
+
       return (
         <FeedCard
           key={index}
           item={item}
+          type={contentType}
         />
       )
     }

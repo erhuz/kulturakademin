@@ -28,6 +28,11 @@ const FeedCard = (props) =>  {
     linkPath = '/webcast/' + item.id.videoId;
   // };
 
+    if(props.type === 'podcast'){
+      linkPath = '/podcast/1';
+      showType = headphones;
+    }
+
   let itemDescription = '';
 
   if(item.snippet.description.length >= 70){
