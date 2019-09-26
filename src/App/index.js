@@ -10,7 +10,7 @@ import Search from '../pages/Search';
 import Index from '../pages/Index';
 import Test from '../pages/Test';
 
-const youtubeData = require('../models/Youtube/data-cache.json')
+const YoutubeVideos = require('../data/youtubeVideos');
 
 function AppRouter() {
   // const query = '';
@@ -23,7 +23,7 @@ function AppRouter() {
   //   console.error(err);
   // })
 
-  console.log(youtubeData);
+  console.log(YoutubeVideos);
 
 
   return (
