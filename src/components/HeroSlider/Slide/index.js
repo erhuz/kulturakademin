@@ -8,7 +8,8 @@ const Slide = (props)  => {
     backgroundSize: 'cover',
     backgroundRepeat: 'no-repeat',
     backgroundPosition: 'center center',
-    height: '29vh',
+    height: '100%',
+    minHeight: '29vh',
     width: '100vw',
     display: 'inline-block',
   }
