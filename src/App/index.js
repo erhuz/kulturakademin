@@ -47,6 +47,6 @@ function AppRouter() {
       <div className="padding-div"> </div>
     </Router>
   );
-}
+};
 
 export default AppRouter;

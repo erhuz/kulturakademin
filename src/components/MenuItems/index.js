@@ -39,12 +39,12 @@ class MenuItems extends React.Component{
           <div className="menu-items">
 
             {navlinks.map(link =>
-              <Link to={link.path}>{link.text}</Link>
+              <Link to={link.path} key={link.id}>{link.text}</Link>
             )}
 
           </div>
           <div className="link-to">
-            <Link to="https://www.kulturakademin.com">Kulturakademin</Link>
+            <a href="https://www.kulturakademin.com">Kulturakademin</a>
             <img src={linkTo} alt="icon"/>
           </div>
           <hr className="line-2"></hr>

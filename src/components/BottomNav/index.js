@@ -22,19 +22,19 @@ class BottomNav extends React.Component {
     let searchIconSrc;
     let categeorySrc;
 
-    if (currentPath != '/') {
+    if (currentPath !== '/') {
        homeIconSrc = homeIcon
     } else (
       homeIconSrc = homeIconActive
     )
 
-    if (currentPath != '/search') {
+    if (currentPath !== '/search') {
       searchIconSrc = searchIcon
     } else(
       searchIconSrc = searchIconActive
     )
 
-    if (currentPath != '/categories') {
+    if (currentPath !== '/categories') {
       categeorySrc = categeory
     } else(
       categeorySrc = categeoryActive
