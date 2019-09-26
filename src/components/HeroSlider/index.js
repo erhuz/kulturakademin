@@ -38,8 +38,8 @@ class HeroSlider extends Component {
 
   render(){
 
-    const slides = this.props.slides.map( slide => {
-      return <Slide img={slide.img} title={slide.title} description={slide.description} />
+    const slides = this.props.slides.map( (slide, index) => {
+      return <Slide key={index} img={slide.img} title={slide.title} description={slide.description} />
     });
 
     const innerSlideContainerStyles = {
