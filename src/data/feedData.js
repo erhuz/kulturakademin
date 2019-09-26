@@ -1,3 +1,5 @@
+import thumbnail1 from '../assets/images/pod-thumbnails/thumbnail1.png'
+
 const feedData = [
   {
     key: 1,
@@ -88,7 +90,7 @@ const feedData = [
       {
         id: 1,
         type: "podcast",
-        thumbnail: "https://images.unsplash.com/photo-1568622155247-675b7a01d1e4?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=634&q=80",
+        thumbnail: thumbnail1,
         description: "Det är alltid speciellt att se en filmatisering av en bok. Vilka val gjorts i filmen och varför? Lyckas det skrivna ordet förmedlas till den vita duken?",
         header: "Adaptionsseminarium",
       },
