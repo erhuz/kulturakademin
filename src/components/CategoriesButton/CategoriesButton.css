@@ -1,7 +1,7 @@
 .categories-button {
     /* width: calc(100vw - 30px); */
     height: 70px;
-    margin: 15px;
+    margin: 0px 15px;
     display: flex;
     justify-content: space-between;
     border: none;

@@ -5,6 +5,7 @@ import YouTube from 'react-youtube';
 import SwipeContainer from '../../components/SwipeContainer';
 import BackButton from '../../components/BackButton'
 import './Webcast.css'
+import ContentDescriptionContainer from '../../components/ContentDescriptionContainer';
 
 const Webcast = ({match}) => {
   const testItems = [
@@ -61,20 +62,7 @@ const Webcast = ({match}) => {
       opts={playerOptions} />
 
       {/* Video info */}
-      <div className="webcast-info-container">
-        <div className="top-container">
-          <div className="webcast-description-container">
-            <h4 className="webcast-description-title">Description</h4>
-            <p className="webcast-description">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Turpis est lorem neque, volutpat dolor phasellus. Ut amet, amet egestas nibh bibendum urna</p>
-          </div>
-        </div>
-        <div className="bottom-container">
-          <div className="webcast-cast-container">
-            <h4 className="webcast-cast-title">Medverkande</h4>
-            <p className="webcast-cast">Christer Petterson, Ola Sävenäs</p>
-          </div>
-        </div>
-      </div>
+      <ContentDescriptionContainer />
 
       <SwipeContainer items={testItems}/>
 
