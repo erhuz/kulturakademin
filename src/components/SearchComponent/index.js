@@ -1,4 +1,5 @@
 import React from 'react';
+import { Link } from "react-router-dom";
 import './SearchComponent.css'
 class SearchComponent extends React.Component {
 
@@ -9,15 +10,15 @@ class SearchComponent extends React.Component {
 
   render() {
     return (
-      <div >
+      <div>
         <div className="search-bar">
-          <input className="search-input" type="text" placeholder="Resultat"/>
-          <a className="search-cancel" href="/">avbryt</a>
+          <input className="search-input" type="text" placeholder="Sök"/>
+          <Link className="search-cancel">avbryt</Link>
         </div>
         <div className="video-or-podd">
-          <a>Video</a>
+          <Link><p className="video">Video</p></Link>
           <div className="vertical-line"></div>
-          <a>Pod</a>
+          <Link> <p className="pod">Pod</p></Link>
         </div>
       </div>
     );
