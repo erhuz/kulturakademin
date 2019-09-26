@@ -12,7 +12,7 @@
 
 .call-to-action {
   display: flex;
-  width: 48px;
+  width: 60px;
   justify-content: space-between;
   margin: 15px;
 }
@@ -20,12 +20,14 @@
   height: 18px;
   width: 18px;
   margin: 6px;
+  margin-right: 10px;
 }
 
 .bookmark-btn {
   height: 18px;
   width: 14px;
   margin: 6px;
+  margin-left: 10px;
 }
 
 .content-description-container{

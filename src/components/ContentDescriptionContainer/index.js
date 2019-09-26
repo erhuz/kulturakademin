@@ -8,8 +8,8 @@ const ContentDescriptionContainer = () => {
     <div className="content-info-container">
       <div className="top-container">
         <div className="content-description-container">
-          <h4 className="content-description-title">Description</h4>
-          <p className="content-description">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Turpis est lorem neque, volutpat dolor phasellus. Ut amet, amet egestas nibh bibendum urna</p>
+          <h4 className="content-description-title">Adaptionsseminarium</h4>
+          <p className="content-description">Det är alltid speciellt att se en filmatisering av en bok. Vilka val gjorts i filmen och varför? Lyckas det skrivna ordet förmedlas till den vita duken?</p>
         </div>
         <div className="call-to-action">
           <img className="share-btn" src={share} alt=""/>
@@ -19,7 +19,7 @@ const ContentDescriptionContainer = () => {
       <div className="bottom-container">
         <div className="content-cast-container">
           <h4 className="content-cast-title">Medverkande</h4>
-          <p className="content-cast">Christer Petterson, Ola Sävenäs</p>
+          <p className="content-cast">Pella Kågerman , Hugo Lilja, Sara Bergmark Elfgren, Alexia Wennberg och Jan Göransson,</p>
         </div>
       </div>
     </div>
