@@ -94,7 +94,7 @@ class Podcast extends Component {
           {/* <ContentDescriptionContainer /> */}
         </div>
 
-        <SwipeContainer className="related-container" items={testItems}/>
+        <SwipeContainer className="related-container" title={'Relaterat'} items={testItems}/>
 
         <BackButton / >
 
