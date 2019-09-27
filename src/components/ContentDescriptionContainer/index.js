@@ -32,7 +32,7 @@ const ContentDescriptionContainer = (props) => {
       <div className="bottom-container">
         <div className="content-cast-container">
           <h4 className="content-cast-title">Medverkande</h4>
-          <p className="content-cast">Pella Kågerman , Hugo Lilja, Sara Bergmark Elfgren, Alexia Wennberg och Jan Göransson,</p>
+          <p className="content-cast">Sally Wainwright</p>
         </div>
       </div>
     </div>

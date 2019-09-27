@@ -73,7 +73,25 @@ class Podcast extends Component {
         </div>
 
         <div className="middle-container">
-          <ContentDescriptionContainer />
+        <div className="content-info-container">
+      <div className="top-container">
+        <div className="content-description-container">
+          <h4 className="content-description-title">Masterclass med Pia Olby - Vad är sånggestaltning (del 1 av 4)</h4>
+          <p className="content-description">Kulturakademin och Teateralliansens kursen i sånggestaltning erbjuder professionella skådespelare möjlighet att arbeta med och utveckla sin egen vokala och ...</p>
+        </div>
+        <div className="call-to-action">
+          <img className="share-btn" src={share} alt=""/>
+          <img className="bookmark-btn" src={bookmark} alt=""/>
+        </div>
+      </div>
+      <div className="bottom-container">
+        <div className="content-cast-container">
+          <h4 className="content-cast-title">Medverkande</h4>
+          <p className="content-cast">Pella Kågerman , Hugo Lilja, Sara Bergmark Elfgren, Alexia Wennberg och Jan Göransson,</p>
+        </div>
+      </div>
+    </div>
+          {/* <ContentDescriptionContainer /> */}
         </div>
 
         <SwipeContainer className="related-container" items={testItems}/>
